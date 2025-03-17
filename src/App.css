@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+
+* {
+  margin: 0;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding: 0;
+  box-sizing: border-box;
+  color: #ffffff;
+  background-color: #212121;
+}
+
+:root {
+  --font-family: "Inter", sans-serif;
+  --second-family: "Bebas Neue Cyrillic", sans-serif;
+  --third-family: "Long Shot Cyrillic", sans-serif;
+  --font3: "Great Vibes", sans-serif;
+  --dfas: #f8f8f8;
+}
+
+img {
+  background: transparent;
+}

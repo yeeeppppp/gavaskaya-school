@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+
+* {
+  margin: 0;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding: 0;
+  box-sizing: border-box;
+  color: #000000;
+  background-color: #F8F8F8;
+  text-decoration: none;
+}
+
+:root {
+  --font-family: "Montserrat", sans-serif;
+  --second-family: "Notable", sans-serif;
+  --third-family: "Inter", sans-serif;
+}
