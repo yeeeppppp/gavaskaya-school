@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import HomePage from './components/HomePage/HomePage';
 import './App.css';
-
+import Sosal from './components/sosal/sosal'
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
       <div>
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/Sosal" element={<Sosal />} />
         </Routes>
       </div>
     </Router>
