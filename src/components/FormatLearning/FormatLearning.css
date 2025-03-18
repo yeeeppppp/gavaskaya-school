@@ -25,6 +25,7 @@
 
 .zagolovok {
     background: transparent;
+    margin-bottom: 1rem;
 }
 
 .format-block {
@@ -178,5 +179,69 @@
 
 
 .category-learn {
+    background: transparent;
+}
+
+.zzz h1 {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 108px;
+    line-height: 101%;
+    letter-spacing: -0.04em;
+    background: linear-gradient(358deg, #fff 0%, rgba(153, 153, 153, 0.17) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 84%;
+    transform: rotate(-1deg);
+
+    padding-top: 5px;
+}
+
+.zzz {
+    background: transparent;
+    transform: rotate(-1deg);
+    margin-left: 60px;   
+}
+
+.block-dop {
+    margin-left: 60px;
+
+    border-radius: 12px;
+    width: 294px;
+    height: 55px;
+
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.25);
+    background: #3a3a3a;
+
+    display: flex;
+    align-items: center;
+
+    margin-top: 1rem;
+}
+
+.block-dop p {
+    background: transparent;
+
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 107%;
+    letter-spacing: -0.05em;
+    color: #fff;
+}
+
+.block-dop span {
+    background: transparent;
+
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 107%;
+    letter-spacing: -0.05em;
+    color: #fff;
+}
+
+.block-dop svg {
     background: transparent;
 }

@@ -4,16 +4,15 @@ function sosal(){
     return(
         <>
         <div className="main">
-            <div className="block-1">
+            <div className="block-popa">
                 <p>Персональные условия</p>
                 <p>для студентов</p>
-                <div className="supblock-1">
-
-                </div>
+                
             </div>
 
 
-            <div className="block-2">
+            <div className="block-popa">
+                
                 <p>Оперативное решение</p>
                 <p>вопросов обучение</p>
                 <div className="supblock-2">
@@ -22,7 +21,7 @@ function sosal(){
             </div>
 
 
-            <div className="block-3">
+            <div className="block-popa">
                 <p>Полностью прозрачное</p>
                 <p>обучение</p>
                 <div className="supblock-3">
@@ -31,7 +30,7 @@ function sosal(){
             </div>
 
 
-            <div className="block-4">
+            <div className="block-popa">
                 <p>Условия расположения</p>
                 <p>офиса и автодрома</p>
                 <div className="supblock-4">
@@ -40,7 +39,7 @@ function sosal(){
             </div>
 
 
-            <div className="block-5">
+            <div className="block-popa">
                 <p>Опытные преподаватели</p>
                 <p>с большим стажем</p>
                 <div className="supblock-5">
@@ -49,7 +48,7 @@ function sosal(){
             </div>
 
 
-            <div className="block-6">
+            <div className="block-popa">
                 <p>Обучнеие</p>
                 <p>в удобном для вас формате</p>
                 <div className="supblock-6">
