@@ -5,6 +5,8 @@ import logoOffline from "../../assets/img/offline.svg"
 import logoPrice from "../../assets/img/price.svg"
 import logoGrafic from "../../assets/img/grafic.svg"
 import Navigation from '../Navigation/Navigation';
+import Metro from '../../assets/img/metro.svg'
+import FormatLearning from '../FormatLearning/FormatLearning'
 
 function HomePage(){
     return (
@@ -32,7 +34,7 @@ function HomePage(){
                     <h2>цена обучения</h2>
                 </div>
                 <div className="block">
-                    <img src={logoFormat} alt="" />
+                    <img src={logoGrafic} alt="" />
                     <h1>удобный</h1>
                     <h2>график</h2>
                 </div>
@@ -62,12 +64,6 @@ function HomePage(){
                         <select className="category-select">
                             <option>Категория B (онлайн)</option>
                             <option>Категория B (оффлайн)</option>
-                            <option>Категория A (онлайн)</option>
-                            <option>Категория A (оффлайн)</option>
-                            <option>Категория C (онлайн)</option>
-                            <option>Категория C (оффлайн)</option>
-                            <option>Категория BC (онлайн)</option>
-                            <option>Категория BC (оффлайн)</option>
                         </select>
                         </div>
 
@@ -84,7 +80,17 @@ function HomePage(){
                     </form>
                 </div>
                 </div>
+                <div className="info-mesto">
+                    <div className="metro">
+                        <img src={Metro} alt="" />
+                        <p>Метро “Горный институт”</p>
+                    </div>
+                    <div className="adres">
+                        <p>Адрес: Санкт-Петербург, В.О. , ул . Гаванская , д. 3</p>
+                    </div>
+                </div>
             </div>
+            <FormatLearning/>
         </>
     )
 }

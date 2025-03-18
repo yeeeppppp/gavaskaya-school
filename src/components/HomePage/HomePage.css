@@ -163,3 +163,57 @@
     margin-top: 8px;
     background-color: transparent;
 }
+
+.adres {
+    border: 0.73px solid #fff;
+    border-radius: 37px;
+    width: 462px;
+    height: 33px;
+    background: transparent;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.metro {
+    background: transparent;
+    display: flex;
+    align-items: center;
+
+    margin-top: 100px;
+}
+
+.adres p .metro p{
+    background: transparent;
+}
+
+.adres p {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 90%;
+    letter-spacing: -0.05em;
+    text-align: center;
+    color: #fff;
+}
+
+.metro p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 90%;
+    letter-spacing: -0.05em;
+    text-align: center;
+    color: #fff;
+    margin-left: 6px;
+}
+
+.info-mesto {
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+
+    margin-left: 60px;
+}
