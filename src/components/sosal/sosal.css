@@ -1,10 +1,19 @@
 .h1-perms h1{
     font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 107%;
+    letter-spacing: -0.04em;
+    color: #fff;
     display: flex;
     margin-top: 18px;
-    margin-left: 64px;
+    margin-left: 63px;
+    z-index: 1;
 }
 
+.six-blocks {
+    margin-top: -91px;
+}
 /* блок 1 */
 
 .block-1 {
@@ -20,6 +29,8 @@
     margin-top: 91px;
 
     font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 15px;
     
     box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.25);
     background: #3a3a3a;
@@ -45,6 +56,10 @@
     border-radius: 12px;
 }
 
+.block-1 p::first-line {
+    font-weight: 600;
+}
+
 /* блок 2 */
 
 .block-2 {
@@ -60,6 +75,7 @@
     margin-top: 10px;
 
     font-family: var(--font-family);
+    font-size: 15px;
     
     box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.25);
     background: #3a3a3a;
@@ -68,7 +84,7 @@
 .block-2 p{
     background: transperent;
     background-color: rgb(58, 58, 58);
-    margin-left: 19px;
+    margin-left: 9px;
 }
 
 .supblock-2 {
@@ -82,6 +98,11 @@
     left: 61px;
     border-radius: 12px;
 }
+
+.block-2 p::first-line {
+    font-weight: 600;
+}
+
 
 /* блок 3 */
 
@@ -98,6 +119,7 @@
     margin-top: 10px;
 
     font-family: var(--font-family);
+    font-size: 15px;
     
     box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.25);
     background: #3a3a3a;
@@ -121,6 +143,11 @@
     border-radius: 12px;
 }
 
+.block-3 p::first-line {
+    font-weight: 600;
+}
+
+ 
 /* блок 4 */
 
 .block-4 {
@@ -136,6 +163,7 @@
     margin-top: -185px;
 
     font-family: var(--font-family);
+    font-size: 15px;
     
     box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.25);
     background: #3a3a3a;
@@ -156,7 +184,12 @@
 .block-4 p{
     background: transperent;
     background-color: rgb(58, 58, 58);
-    margin-left: 19px;
+    position: absolute;
+    left: 449px;
+}
+
+.block-4 p::first-line {
+    font-weight: 600;
 }
 
 /* блок 5 */
@@ -174,6 +207,7 @@
     margin-top: 10px;
 
     font-family: var(--font-family);
+    font-size: 15px;
     
     box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.25);
     background: #3a3a3a;
@@ -194,7 +228,12 @@
 .block-5 p{
     background: transperent;
     background-color: rgb(58, 58, 58);
-    margin-left: 19px;
+    position: absolute;
+    left: 449px;
+}
+
+.block-5 p::first-line {
+    font-weight: 600;
 }
 
 /* блок 6 */
@@ -212,6 +251,7 @@
     margin-top: 10px;
 
     font-family: var(--font-family);
+    font-size: 15px;
     
     box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.25);
     background: #3a3a3a;
@@ -232,5 +272,41 @@
 .block-6 p{
     background: transperent;
     background-color: rgb(58, 58, 58);
-    margin-left: 39 px;
+    position: absolute;
+    left: 449px;
+}
+
+/* почему мы, наши преищуества */
+
+.why-we {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 90%;
+    letter-spacing: -0.05em;
+    color: #fff;
+
+    margin-left: 63px;
+    margin-top: 37px;
+}
+
+.description-why-we {
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 90%;
+    letter-spacing: -0.05em;
+    color: #fff;
+    margin-top: 22px;
+    margin-left: 62px;
+}
+
+.bold-why-we {
+    font-weight: 600;
+}
+
+/* ебучие билетики */
+
+.special-blocks {
+    display: flex;
 }
