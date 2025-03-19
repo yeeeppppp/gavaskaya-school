@@ -1,6 +1,5 @@
 import './FormatLearning.css'
-import SubImg from '../../assets/img/pepe.png'
-
+ 
 function FormatLearning(){
     return(
         <>
@@ -56,30 +55,39 @@ function FormatLearning(){
                 <div className="zzz">
                     <h1>ДОПОЛНИТЕЛЬНЫЕ <br/> УСЛУГИ</h1>
                 </div>
+                <div className="blocks-dop-ysl">
                 <div className="block-dop">
-                        <svg width="90" height="87" viewBox="0 0 90 87" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g filter="url(#filter0_d_404_12)">
-                                <path d="M15 23.4901C15 17.1233 20.1614 11.9619 26.5282 11.9619H63.437C69.8038 11.9619 74.9652 17.1233 74.9652 23.4901V56.4012C74.9652 62.7681 69.8039 67.9295 63.437 67.9295H26.5282C20.1614 67.9295 15 62.7681 15 56.4012V23.4901Z" fill="#4F4F4F" />
-                            </g>
-                            <defs>
-                                <filter id="filter0_d_404_12" x="0.279333" y="0.788396" width="89.4062" height="85.4089" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                                <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                                <feOffset dy="3.54715" />
-                                <feGaussianBlur stdDeviation="7.36033" />
-                                <feComposite in2="hardAlpha" operator="out" />
-                                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-                                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_404_12" />
-                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_404_12" result="shape" />
-                                </filter>
-                            </defs>
-                        </svg>
-                    <p> <span>Психологическая <br />
-                    поддержка</span> обучающихся</p>
+                            <p>
+                              <span>Психологическая<br/> поддержка</span> обучающихся
+                            </p>
+                
+                            <div className="supblocks">
+                              
+                            </div>
+                </div>
+                <div className="block-dop">
+                            <p>
+                              <span>Профессиональный<br/> онлайн</span> педагог
+                            </p>
+                
+                            <div className="supblocks">
+                              
+                            </div>
+                </div>
+                <div className="block-dop">
+                            <p>
+                              <span>Восстановление<br/></span> Навыков вождения
+                            </p>
+                
+                            <div className="supblocks">
+                              
+                            </div>
+                </div>
                 </div>
             </div>
+            
         </>
     )
 }
-
+ 
 export default FormatLearning;

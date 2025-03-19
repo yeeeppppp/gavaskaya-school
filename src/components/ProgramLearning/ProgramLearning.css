@@ -1,0 +1,116 @@
+.cards-pl button {
+    display: flex;
+    align-items: center;
+    padding: 10px 38px 10px 38px;
+ 
+    border-radius: 42px;
+    background: linear-gradient(146deg, #00e400 0%, #00b304 70.71%, #009e05 100%);
+    box-shadow: 1px 2px 7px 0 rgba(0, 0, 0, 0.27);
+ 
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 111%;
+    letter-spacing: -0.05em;
+    color: #fff;
+ 
+    border: none;
+}
+
+.cards-pl {
+    display: flex;
+}
+
+.title-pl h1 {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 197px;
+    letter-spacing: -0.04em;
+    background: linear-gradient(358deg, #2a2a2a 0%, rgba(220, 220, 220, 0.17) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: rotate(-1deg);
+    z-index: -2;
+}
+
+.card {
+    border-radius: 25px;
+    width: 315px;
+    height: 476px;
+    box-shadow: 8px 8px 18px 4px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(358deg, rgba(125, 125, 125, 0.3) 0%, rgba(55, 55, 55, 0.3) 100%);
+    margin-top: -2rem;
+    z-index: 3;
+}
+
+.ProgramLearning {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 6rem;
+}
+
+.title-cards {
+    margin-top: 1rem;
+}
+
+.title-cards h1{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 67px;
+    line-height: 107%;
+    letter-spacing: -0.04em;
+    color: #fff;
+    background: transparent;
+}
+
+.title-cards h2{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: -0.04em;
+    color: #fff;
+    background: transparent;
+    margin-top: -1rem;
+}
+
+.title-cards {
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.offline {
+    background: transparent;
+    display: flex;
+    align-items: baseline;
+    margin-top: -1.25rem;
+    transform: translateX(8px);
+}
+
+.offline svg {
+    background: transparent;
+    transform: translateX(-3px);
+}
+
+.card svg {
+    background: transparent;
+}
+
+.card button svg{
+    margin-right: 10px;
+}
+
+.card button {
+    margin-top: 1rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10.5px;
+    margin-right: 10.5px;
+}
