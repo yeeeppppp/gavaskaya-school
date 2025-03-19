@@ -1,0 +1,47 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    padding: 20px;
+
+    border-top: rgb(169, 169, 169) 1px solid;
+    border-bottom: rgb(156, 156, 156) 1px solid;
+}
+
+.social-nw a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.number a {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 90%;
+    letter-spacing: -0.05em;
+    color: #fff;
+    margin-right: 30px;
+}
+
+.logo img {
+    width: 139px;
+    height: 36px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+
+    padding-bottom: 20px;
+}
+
+.copyright p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 90%;
+    letter-spacing: -0.05em;
+    text-align: center;
+    color: #fff;
+}

@@ -1,0 +1,95 @@
+.docs h1 {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 197px;
+    letter-spacing: -0.04em;
+    background: linear-gradient(358deg, #2a2a2a 0%, rgba(220, 220, 220, 0.17) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    transform: rotate(-1deg);
+
+    z-index: 0;
+}
+
+.docs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.docs a {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 90%;
+    letter-spacing: -0.05em;
+    text-align: center;
+
+    background: transparent;
+}
+
+.link-one {
+    border-radius: 115px;
+    width: 240px;
+    height: 39px;
+    background: linear-gradient(146deg, #00e400 0%, #00b304 70.71%, #009e05 100%);
+}
+
+.link-two {
+    border-radius: 115px;
+    width: 292px;
+    height: 39px;
+
+    background: linear-gradient(146deg, #00e400 0%, #00b304 70.71%, #009e05 100%);
+}
+
+.link-three {
+    border-radius: 115px;
+    width: 240px;
+    height: 39px;
+
+    background: linear-gradient(146deg, #00e400 0%, #00b304 70.71%, #009e05 100%);
+}
+
+.link-all {
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 107%;
+    letter-spacing: -0.05em;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-align: center;
+    color: #ffffff;
+
+    margin-top: 22px;
+}
+
+.link-all {
+    color: rgb(180, 180, 180);
+}
+
+.link-all:hover {
+    color: white;
+    transition: all 1s;
+}
+
+.link-one,
+.link-two,
+.link-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 9px;
+    margin-right: 9px;
+}
+
+.docs-links {
+    display: flex;
+    margin-top: -2.6rem;
+    z-index: 10;
+}
