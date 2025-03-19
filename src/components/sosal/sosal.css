@@ -1,4 +1,4 @@
-.h1-perms h1{
+.h1-perms h1 {
     font-family: var(--second-family);
     font-weight: 400;
     font-size: 60px;
@@ -9,14 +9,23 @@
     margin-top: 18px;
     margin-left: 63px;
     z-index: 1;
-}
+  }
 
-.six-blocks {
-    margin-top: -91px;
-}
-/* блок 1 */
+  .our-perms-img {
+    display: flex;
+    margin-top: -60px;
+    margin-left: 748px;
+  }
 
-.block-1 {
+  /* 6 блоков почему мы */
+  
+  .six-blocks {
+    margin-top: 91px;
+    align-items: center;
+  }
+  /* блок 1 */
+  
+  .block-1 {
     display: flex;
     flex-direction: column;
     background-color: rgb(58, 58, 58);
@@ -27,42 +36,41 @@
     align-items: center;
     justify-content: center;
     margin-top: 91px;
-
+  
     font-family: var(--font-family);
     font-weight: 300;
     font-size: 15px;
-    
+  
     box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.25);
     background: #3a3a3a;
-}
-
-.block-1 p{
+  }
+  
+  .block-1 p {
     background: transperent;
     background-color: rgb(58, 58, 58);
     margin-left: 19px;
-}
-
-
-.supblock-1 {
+  }
+  
+  .supblock-1 {
     display: flex;
     width: 59px;
     height: 55px;
     justify-content: center;
-
+  
     box-shadow: 0 4px 15px 5px rgba(0, 0, 0, 0.25);
     background: rgba(108, 108, 108, 0.42);
     position: absolute;
     left: 61px;
     border-radius: 12px;
-}
-
-.block-1 p::first-line {
+  }
+  
+  .block-1 p::first-line {
     font-weight: 600;
-}
-
-/* блок 2 */
-
-.block-2 {
+  }
+  
+  /* блок 2 */
+  
+  .block-2 {
     display: flex;
     flex-direction: column;
     background-color: rgb(58, 58, 58);
@@ -73,40 +81,39 @@
     align-items: center;
     justify-content: center;
     margin-top: 10px;
-
+  
     font-family: var(--font-family);
     font-size: 15px;
-    
+  
     box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.25);
     background: #3a3a3a;
-}
-
-.block-2 p{
+  }
+  
+  .block-2 p {
     background: transperent;
     background-color: rgb(58, 58, 58);
     margin-left: 9px;
-}
-
-.supblock-2 {
+  }
+  
+  .supblock-2 {
     display: flex;
     width: 59px;
     height: 55px;
-
+  
     box-shadow: 0 4px 15px 5px rgba(0, 0, 0, 0.25);
     background: rgba(108, 108, 108, 0.42);
     position: absolute;
     left: 61px;
     border-radius: 12px;
-}
-
-.block-2 p::first-line {
+  }
+  
+  .block-2 p::first-line {
     font-weight: 600;
-}
-
-
-/* блок 3 */
-
-.block-3 {
+  }
+  
+  /* блок 3 */
+  
+  .block-3 {
     display: flex;
     flex-direction: column;
     background-color: rgb(58, 58, 58);
@@ -117,40 +124,39 @@
     align-items: center;
     justify-content: center;
     margin-top: 10px;
-
+  
     font-family: var(--font-family);
     font-size: 15px;
-    
+  
     box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.25);
     background: #3a3a3a;
-}
-
-.block-3 p{
+  }
+  
+  .block-3 p {
     background: transperent;
     background-color: rgb(58, 58, 58);
     margin-left: 19px;
-}
-
-.supblock-3 {
+  }
+  
+  .supblock-3 {
     display: flex;
     width: 59px;
     height: 55px;
-
+  
     box-shadow: 0 4px 15px 5px rgba(0, 0, 0, 0.25);
     background: rgba(108, 108, 108, 0.42);
     position: absolute;
     left: 61px;
     border-radius: 12px;
-}
-
-.block-3 p::first-line {
+  }
+  
+  .block-3 p::first-line {
     font-weight: 600;
-}
-
- 
-/* блок 4 */
-
-.block-4 {
+  }
+  
+  /* блок 4 */
+  
+  .block-4 {
     display: flex;
     flex-direction: column;
     background-color: rgb(58, 58, 58);
@@ -161,40 +167,40 @@
     align-items: center;
     justify-content: center;
     margin-top: -185px;
-
+  
     font-family: var(--font-family);
     font-size: 15px;
-    
+  
     box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.25);
     background: #3a3a3a;
-}
-
-.supblock-4 {
+  }
+  
+  .supblock-4 {
     display: flex;
     width: 59px;
     height: 55px;
-
+  
     box-shadow: 0 4px 15px 5px rgba(0, 0, 0, 0.25);
     background: rgba(108, 108, 108, 0.42);
     position: absolute;
     left: 375px;
     border-radius: 12px;
-}
-
-.block-4 p{
+  }
+  
+  .block-4 p {
     background: transperent;
     background-color: rgb(58, 58, 58);
     position: absolute;
     left: 449px;
-}
-
-.block-4 p::first-line {
+  }
+  
+  .block-4 p::first-line {
     font-weight: 600;
-}
-
-/* блок 5 */
-
-.block-5 {
+  }
+  
+  /* блок 5 */
+  
+  .block-5 {
     display: flex;
     flex-direction: column;
     background-color: rgb(58, 58, 58);
@@ -205,40 +211,40 @@
     align-items: center;
     justify-content: center;
     margin-top: 10px;
-
+  
     font-family: var(--font-family);
     font-size: 15px;
-    
+  
     box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.25);
     background: #3a3a3a;
-}
-
-.supblock-5 {
+  }
+  
+  .supblock-5 {
     display: flex;
     width: 59px;
     height: 55px;
-
+  
     box-shadow: 0 4px 15px 5px rgba(0, 0, 0, 0.25);
     background: rgba(108, 108, 108, 0.42);
     position: absolute;
     left: 375px;
     border-radius: 12px;
-}
-
-.block-5 p{
+  }
+  
+  .block-5 p {
     background: transperent;
     background-color: rgb(58, 58, 58);
     position: absolute;
     left: 449px;
-}
-
-.block-5 p::first-line {
+  }
+  
+  .block-5 p::first-line {
     font-weight: 600;
-}
-
-/* блок 6 */
-
-.block-6 {
+  }
+  
+  /* блок 6 */
+  
+  .block-6 {
     display: flex;
     flex-direction: column;
     background-color: rgb(58, 58, 58);
@@ -249,48 +255,48 @@
     align-items: center;
     justify-content: center;
     margin-top: 10px;
-
+  
     font-family: var(--font-family);
     font-size: 15px;
-    
+  
     box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.25);
     background: #3a3a3a;
-}
-
-.supblock-6 {
+  }
+  
+  .supblock-6 {
     display: flex;
     width: 59px;
     height: 55px;
-
+  
     box-shadow: 0 4px 15px 5px rgba(0, 0, 0, 0.25);
     background: rgba(108, 108, 108, 0.42);
     position: absolute;
     left: 375px;
     border-radius: 12px;
-}
-
-.block-6 p{
+  }
+  
+  .block-6 p {
     background: transperent;
     background-color: rgb(58, 58, 58);
     position: absolute;
     left: 449px;
-}
-
-/* почему мы, наши преищуества */
-
-.why-we {
+  }
+  
+  /* почему мы, наши преищуества */
+  
+  .why-we {
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 28px;
     line-height: 90%;
     letter-spacing: -0.05em;
     color: #fff;
-
+  
     margin-left: 63px;
     margin-top: 37px;
-}
-
-.description-why-we {
+  }
+  
+  .description-why-we {
     font-family: var(--font-family);
     font-weight: 300;
     font-size: 11px;
@@ -299,14 +305,351 @@
     color: #fff;
     margin-top: 22px;
     margin-left: 62px;
-}
-
-.bold-why-we {
+  }
+  
+  .bold-why-we {
     font-weight: 600;
-}
+  }
+  
+  /* плейсхолдер карты */
+  
+  .map-bg {
+    display: inline;
+    position: absolute;
+    right: 70px;
+    top: 12px;
+    background: inherit;
+  }
+  
+  /* ебучие билетики */
+  
+  .special-blocks {
+    position: relative;
+    margin-left: 61px;
+  }
 
-/* ебучие билетики */
-
-.special-blocks {
+  .white-special-blocks {
     display: flex;
+  }
+  
+  .spec-block-1,
+  .spec-block-2,
+  .spec-block-3,
+  .spec-block-4,
+  .spec-block-5,
+  .spec-block-6 {
+    width: 200px; 
+    height: 100px; 
+    z-index: 1;
+    background: transparent;
+    fill: linear-gradient(168deg, #f0f0f0 0%, #7e7e7e 100%);
+    box-shadow: 5px 0 10px 0 rgba(0, 0, 0, 0.25);
+    margin-top: 111px;
+  }
+  
+  .spec-block-1 {
+    z-index: 7; 
+  }
+  
+  .spec-block-1 svg {
+    background: transparent;
+  }
+  
+  .spec-block-2 {
+    z-index: 6; 
+    margin-left: -74px;
+  }
+  
+  .spec-block-2 svg {
+    background: transparent;
+  }
+  
+  .spec-block-3 {
+    z-index: 5;
+    margin-left: -50px;
+  }
+  
+  .spec-block-3 svg {
+    background: transparent;
+  }
+  
+  .spec-block-4 {
+    z-index: 4; 
+  }
+  
+  .spec-block-4 svg {
+    background: transparent;
+  }
+  
+  .spec-block-5 {
+    z-index: 3;
+    margin-left: -15px; 
+  }
+  
+  .spec-block-5 svg {
+    background: transparent;
+  }
+  
+  .spec-block-6 {
+    z-index: 1; 
+    margin-left: -32px;
+  }
+  
+  .spec-block-6 svg {
+    background: transparent;
+    margin-top: 10px;
+    margin-left: 12px;
+  }
+  
+  .studying-map {
+    z-index: 2;
+    position: absolute;
+    margin-top: 19px;
+    margin-left: 7px;
+  }
+  
+  .studying-map svg{
+      background: transparent;
+  }
+  
+  /* зеленые хуйнюшки на белых хуйнюшках */
+  
+  .green-1 span,
+  .green-2 span,
+  .green-3 span,
+  .green-4 span,
+  .green-5 span,
+  .green-6 span,
+  .green-1 span {
+    font-family: var(--second-family);  
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 107%;
+    letter-spacing: -0.05em;
+    color: #096a00;
+    background-color: rgb(0, 224, 0);
+  }
+  
+  .green-1,
+  .green-2,
+  .green-3,
+  .green-4,
+  .green-5,
+  .green-6,
+  .green-1 {
+    display: flex;
+    border-radius: 100px;
+    width: 59px;
+    height: 25px;
+    background-color: rgb(0, 224, 0);
+    justify-content: center;
+    align-items: center;
+  
+    position: absolute;
+  }
+  
+  .green-1 {
+    top: 133px;
+    left: 32px;
+  }
+  
+  .green-2 {
+    top: 133px;
+    left: 232px;
+  }
+  
+  .green-3 {
+    top: 133px;
+    left: 432px;
+  }
+  
+  .green-4 {
+    top: 133px;
+    left: 625px;
+  }
+  
+  .green-5 {
+    top: 133px;
+    left: 815px;
+  }
+  
+  .green-6 {
+    top: 133px;
+    left: 1015px;
+  }
+
+/* текст в белых блоках */
+
+.conversation {
+    display: flex;
+    margin-top: -115px;
+    margin-left: 32px;
+
+    font-family: var(--font-family);
+    font-style: italic;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 107%;
+    letter-spacing: -0.05em;
+    color: #212121;
 }
+
+.spec-block-1 p {
+    margin-left: 32px;
+
+    font-family: var(--font-family);
+    font-style: italic;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 107%;
+    letter-spacing: -0.05em;
+    color: #212121;
+}
+
+.dealing {
+    display: flex;
+    margin-top: -111px;
+    margin-left: 102px;
+
+    font-family: var(--font-family);
+    font-style: italic;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 76%;
+    letter-spacing: -0.05em;
+    color: #212121;
+}
+
+.spec-block-2 p {
+    margin-left: 102px;
+    width: 150px;
+    margin-top: 3px;
+
+    font-family: var(--font-family);
+    font-style: italic;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 107%;
+    letter-spacing: -0.05em;
+    color: #212121;
+    background: inherit;
+}
+
+.studying-wb {
+    display: flex;
+    margin-left: 152px;
+    margin-top: -115px;
+
+    font-family: var(--font-family);
+    font-style: italic;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 107%;
+    letter-spacing: -0.05em;
+    color: #212121;
+}
+
+.spec-block-3 p {
+    margin-left: 152px;
+    width: 150px;
+
+    font-family: var(--font-family);
+    font-style: italic;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 107%;
+    letter-spacing: -0.05em;
+    color: #212121;
+    background: inherit;
+}
+
+.auto-exam {
+    display: flex;
+    margin-left: 152px;
+    margin-top: -115px;
+    width: 150px;
+
+    font-family: var(--font-family);
+    font-style: italic;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 107%;
+    letter-spacing: -0.05em;
+    color: #212121;
+}
+
+.spec-block-4 p {
+    margin-left: 152px;
+    margin-top: 3px;
+    width: 150px;
+
+    font-family: var(--font-family);
+    font-style: italic;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 107%;
+    letter-spacing: -0.05em;
+    color: #212121;
+    background: inherit;
+}
+
+.auto-gai-exam {
+    display: flex;
+    margin-left: 152px;
+    margin-top: -115px;
+
+    font-family: var(--font-family);
+    font-style: italic;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 107%;
+    letter-spacing: -0.05em;
+    color: #212121;
+}
+
+.spec-block-5 p {
+    margin-left: 152px;
+    margin-top: 3px;
+    width: 150px;
+
+    font-family: var(--font-family);
+    font-style: italic;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 107%;
+    letter-spacing: -0.05em;
+    color: #212121;
+    background: inherit;
+}
+
+.giving-prava {
+    display: flex;
+    margin-left: 182px;
+    margin-top: -105px;
+    width: 150px;
+
+    font-family: var(--font-family);
+    font-style: italic;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 107%;
+    letter-spacing: -0.05em;
+    color: #212121;
+}
+
+.spec-block-6 p {
+    margin-left: 182px;
+    margin-top: 3px;
+    width: 155px;
+
+    font-family: var(--font-family);
+    font-style: italic;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 107%;
+    letter-spacing: -0.05em;
+    color: #212121;
+    background: inherit;
+}
+
+/* эщкере */
