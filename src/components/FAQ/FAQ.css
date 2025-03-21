@@ -1,0 +1,76 @@
+.faq-header h2{
+    text-align: center;
+    margin-top: 60px;
+
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 107%;
+    letter-spacing: -0.04em;
+    color: #fff;
+}
+
+
+.faq-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -27px;
+    align-items: center;
+
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 122%;
+    letter-spacing: -0.05em;
+    color: #fff;
+}
+
+.faq-question {
+    display: flex;
+    background-color: #444444;
+    border-radius: 95px;
+    height: 69px;
+    width: 700px;
+    margin-top: 60px;
+}
+
+.faq-question span{
+    margin-left: 45px;
+    margin-top: 17px;
+    z-index: 2;
+}
+
+.faq-answer {
+    display: flex;
+    background-color: #444444;
+    width: 700px;
+    margin-top: -32px;
+    border-radius: 0 0 40px 40px;
+    
+
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 122%;
+    letter-spacing: -0.05em;
+    color: #fff;
+}
+
+.faq-answer span{
+    margin-left: 45px;
+    margin-top: 35px;
+    height: 80px;
+    margin-bottom: -25px;
+}
+
+.faq-question img{
+    position: absolute;
+    height: 18.5px;
+    margin-left: 605px;
+    margin-top: 25px;
+    
+}
+
+.questions {
+    margin-bottom: 260px; /* Можно настроить значение по вашему усмотрению */
+}
