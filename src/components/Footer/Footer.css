@@ -34,14 +34,51 @@ footer {
     justify-content: center;
 
     padding-bottom: 20px;
+    margin-top: 2rem;
 }
 
 .copyright p {
     font-family: var(--font-family);
-    font-weight: 500;
+    font-weight: 400;
     font-size: 14px;
     line-height: 90%;
-    letter-spacing: -0.05em;
+    letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+}
+
+.links-to-docs a{
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 122%;
+    letter-spacing: 0.03em;
+    color: #b4b4b4;
+
+    margin-top: 19px;
+    margin-bottom: 19px;
+}
+
+.links-to-docs a:hover {
+    color: white;
+    transition: all 1s;
+}
+
+.links-to-docs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+
+    border-bottom: 1px solid rgb(119, 119, 119);
+}
+
+.group-links {
+    width: 309px;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 20px;
+    margin-right: 20px;
 }
