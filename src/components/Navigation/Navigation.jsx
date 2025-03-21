@@ -5,7 +5,7 @@ function Navigation(){
     return(
         <>
         <div className="nav-bar">
-            <div className="logo">
+            <div className="logo-sa">
                 <img src={logo} alt="logo" />
             </div>
             <div className="nav-el">
@@ -13,7 +13,6 @@ function Navigation(){
                 <a href="#">Обучение</a>
                 <a href="#">Акции</a>
                 <a href="#">Контакты</a>
-                <a href="#">Отзывы</a>
             </div>
         </div>
         </>

@@ -18,14 +18,18 @@
     align-items: center;
     padding-left: 61px;
     padding-right: 80px;
-    padding-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 
-    background: transparent;
+    background: #212121c3;
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
-.logo img {
-    width: 206px;
-    height: 44px;
+.logo-sa img {
+    height: 36px;
 
     background: transparent;
 }
@@ -34,5 +38,13 @@
     color: #fff;
     transition: all 0.5s;
 
+    background: transparent;
+}
+
+.nav-el {
+    background: transparent;
+}
+
+.logo-sa {
     background: transparent;
 }

@@ -21,3 +21,12 @@
 img {
   background: transparent;
 }
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  scale: 1.05;
+  transition: all 1s;
+}
