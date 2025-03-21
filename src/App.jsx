@@ -11,6 +11,8 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/Sosal" element={<Sosal />} />
+          <Route path='/OurTeachers' element={<OurTeachers />}/>
+          <Route path='/FAQ' element={<FAQ />}/>
         </Routes>
       </div>
     </Router>
