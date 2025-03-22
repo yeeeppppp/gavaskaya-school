@@ -14,6 +14,7 @@ import Docs from '../Docs/Docs'
 import Footer from '../Footer/Footer'
 import ProgramLearning from '../ProgramLearning/ProgramLearning'
 import CardsUL from '../CardsUL/CardsUL'
+import Dogovor from '../dogovor/dogovor'
 
 function HomePage() {
   const [formData, setFormData] = useState({
@@ -144,6 +145,7 @@ function HomePage() {
       <Docs/>
       <ProgramLearning/>
       <CardsUL/>
+      <Dogovor/>
       <Footer/>
     </>
   )
