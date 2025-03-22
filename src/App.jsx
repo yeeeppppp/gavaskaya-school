@@ -7,6 +7,7 @@ import FormatLearning from './components/FormatLearning/FormatLearning';
 import OurTeachers from './components/OurTeachers/ourteachers';
 import FAQ from './components/FAQ/FAQ';
 import AboutUs from './components/AboutUs/AboutUs'
+import TheoricalTP from './components/TheoricalTP/TheoricalTP';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path='/OurTeachers' element={<OurTeachers />}/>
           <Route path='/FAQ' element={<FAQ />}/>
           <Route path='/AboutUs' element={<AboutUs />}/>
+          <Route path='/TheoricalTP' element={<TheoricalTP />}/>
         </Routes>
       </div>
     </Router>

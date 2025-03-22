@@ -1,0 +1,320 @@
+.theoric-header {
+    z-index: 1;
+    margin-left: 62px;
+}
+
+.both-sections {
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+/* online блок */
+
+.online-section {
+    display: flex;
+    flex-direction: row;
+    margin-left: 62px;
+    margin-top: -20px;
+}
+
+.online-block {
+    width: 300px;
+    height: 455px;
+    border-radius: 0 24px 24px 0;
+
+    box-shadow: 7px 7px 17px 4px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(358deg, rgb(45, 45, 45) 0%, rgb(57, 57, 57) 100%);
+}
+
+.online-text {
+    background: transparent;
+    margin-top: 39px;
+}
+
+.online-text span {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 107%;
+    letter-spacing: -0.04em;
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+}
+
+.online-text h2 {
+    background: transparent;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 107%;
+    letter-spacing: -0.04em;
+    color: #fff;
+
+    text-align: center;
+}
+
+.online-text p {
+    background: transparent;
+    margin-left: 35px;
+    margin-top: -20px;
+
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 107%;
+    letter-spacing: -0.04em;
+    color: #fff;
+}
+
+/* offline блок */
+
+.offline-block {
+    width: 300px;
+    height: 456px;
+    border-radius: 24px 0 0 24px;
+
+    box-shadow: 7px 7px 17px 4px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(358deg, rgb(45, 45, 45) 0%, rgb(57, 57, 57) 100%);
+}
+
+.offline-section {
+    display: flex;
+    flex-direction: row;
+    margin-left: 62px;
+    margin-top: -20px;
+}
+
+.offline-text {
+    background: transparent;
+    margin-top: 39px;
+}
+
+.offline-text span {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 107%;
+    letter-spacing: -0.04em;
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+}
+
+.offline-text h2 {
+    background: transparent;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 107%;
+    letter-spacing: -0.04em;
+    color: #fff;
+
+    text-align: center;
+}
+
+.offline-text p {
+    background: transparent;
+    margin-left: 35px;
+    margin-top: -20px;
+
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 107%;
+    letter-spacing: -0.04em;
+    color: #fff;
+}
+
+.offline-block svg {
+    z-index: 10;
+}
+
+.green-click-button-2 {
+    display: flex;
+    width: 235px;
+    height: 48px;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 380px;
+    margin-left: -270px;
+
+    border-radius: 40px;
+    background: linear-gradient(146deg, #00e400 0%, #00b304 70.71%, #009e05 100%);
+    box-shadow: 1px 2px 6px 0 rgba(0, 0, 0, 0.27);
+}
+
+.green-click-button-2 p {
+    background: transparent;
+    margin-top: 10px;
+
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 111%;
+    letter-spacing: -0.05em;
+    color: #fff;
+}
+
+.green-click-button-2 img {
+    width: 20px;
+    height: 20px;
+    margin-top: 13.5px;
+}
+
+.green-click-button {
+    display: flex;
+    width: 235px;
+    height: 48px;
+    justify-content: center;
+    gap: 10px;
+    margin-left: -600px;
+    margin-top: 380px;
+
+    border-radius: 40px;
+    background: linear-gradient(146deg, #00e400 0%, #00b304 70.71%, #009e05 100%);
+    box-shadow: 1px 2px 6px 0 rgba(0, 0, 0, 0.27);
+}
+
+.green-click-button p {
+    background: transparent;
+    margin-top: 10px;
+
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 111%;
+    letter-spacing: -0.05em;
+    color: #fff;
+}
+
+.green-click-button img {
+    width: 20px;
+    height: 20px;
+    margin-top: 13.5px;
+}
+
+/* нижний блок 1 */
+
+.lesson-timing {
+    border-radius: 22px;
+    width: 277px;
+    height: 158px;
+    margin-left: 62px;
+    margin-top: 20px;
+
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background: linear-gradient(358deg, rgb(45, 45, 45) 0%, rgb(57, 57, 57) 100%);
+}
+
+.lesson-timing p {
+    background: transparent;
+    margin-left: 20px;
+
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 68%;
+    letter-spacing: -0.05em;
+    color: #fff;
+}
+
+.lesson-timing p::first-line {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 209%;
+    letter-spacing: -0.05em;
+    color: #fff;
+}
+
+.yep-text {
+    margin-top: -15px;
+    background: transparent;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 68%;
+    letter-spacing: -0.05em;
+    color: #fff;
+}
+
+.lesson-timing h3 {
+    background: transparent;
+    margin-left: -45px;
+    padding-top: 16px;
+
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 68%;
+    letter-spacing: -0.05em;
+    text-align: center;
+    color: #fff;
+}
+
+/* нижний блок 2 */
+
+.lesson-duration {
+    border-radius: 22px;
+    width: 277px;
+    height: 158px;
+    margin-top: 20px;
+
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background: linear-gradient(358deg, rgb(45, 45, 45) 0%, rgb(57, 57, 57) 100%);
+}
+
+.lesson-duration h3 {
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 83%;
+    letter-spacing: -0.05em;
+    text-align: center;
+    color: #fff;
+    
+}
+
+.lesson-duration p {
+    background: transparent;
+}
+
+.time-block {
+    border-radius: 94px;
+    width: 201px;
+    height: 48px;
+    margin-top: 25px;
+    margin-left: 39px;
+    justify-content: center;
+    display: flex;
+
+    background: linear-gradient(358deg, rgb(45, 45, 45) 0%, rgb(57, 57, 57) 100%);
+}
+
+.time-block p {
+    margin-top: 10px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 83%;
+    letter-spacing: -0.05em;
+    text-align: center;
+    color: #fff;
+}
+
+.additional-blocks {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
