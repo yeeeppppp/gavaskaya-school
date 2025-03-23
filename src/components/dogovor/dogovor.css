@@ -8,7 +8,6 @@
 }
 
 .dogovor {
-    margin-left: 60px;
     margin-top: 7rem;
 
     display: flex;
@@ -25,6 +24,7 @@
 .dogovor-title {
     display: flex;
     align-items: center;
+    margin-left: 60px;
 }
 
 .dogovor-title svg {
@@ -77,8 +77,6 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-
-    margin-left: 20px;
     margin-top: -1rem;
 }
 
@@ -89,6 +87,12 @@
 
     margin-left: 4px;
     margin-right: 4px;
+
+    background: linear-gradient(180deg, #dfdfdf 0%, #eee 100%);
+}
+
+.icon-dog svg{
+    background: transparent;
 }
 
 .icons-dogovor {
@@ -103,8 +107,41 @@
     transition: all 0.3s
 }
 
+.content-ico {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    flex-direction: column;
+}
 
-.icon-dog svg {
+.content-ico h3 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 107%;
+    letter-spacing: -0.05em;
+    color: #000;
+
+    background: transparent;
+    margin-top: 5px;
+}
+
+.content-ico p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 103%;
+    letter-spacing: -0.05em;
+    color: #000;
+
+    background: transparent;
+    margin-top: 2px;
+    text-align: center;
+}
+
+
+.num {
     background: transparent;
     margin-top: -4px;
     margin-left: -4px;
@@ -113,7 +150,7 @@
 .way-oplata {
     border-radius: 20px;
     width: 398px;
-    height: 230px;
+    height: 290px;
     background: linear-gradient(358deg, rgb(45, 45, 45) 0%, rgb(57, 57, 57) 100%);
 
     margin-left: 12px;
@@ -145,7 +182,7 @@
     display: flex;
     align-items: center;
 
-    margin-top: 5px;
+    margin-top: 15px;
 }
 .line p{
     background: transparent;
