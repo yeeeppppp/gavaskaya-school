@@ -318,3 +318,23 @@
     gap: 20px;
 
 }
+
+.theoricalTP {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.both-sections {
+    width: 1322px;
+}
+
+.plitsss {
+    display: flex;
+    margin-top: 15px;
+}
+
+.space p{
+    color: transparent;
+}

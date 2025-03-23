@@ -35,6 +35,10 @@ function HomePage() {
       <br />
       <FormatLearning/>
       <OurTeachers/>
+      <br />
+      <br />
+      <br />
+      <br />
       <Carousel/>
       <AboutUs/>
       <ProgramLearning/>

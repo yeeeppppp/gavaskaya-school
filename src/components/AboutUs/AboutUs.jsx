@@ -6,6 +6,7 @@ import Filial2 from "../../assets/img/filial-2.png";
 function aboutus() {
   return (
     <>
+      <div className="filliall">
       <div className="about-header">
         <h2>О НАШЕМ ФИЛЛИАЛЕ</h2>
         <img src={AboutFil} alt="" />
@@ -87,6 +88,7 @@ function aboutus() {
             <div className="empty-block-2"></div>
           </div>
         </div>
+      </div>
       </div>
     </>
   );
