@@ -17,6 +17,11 @@ import CardsUL from '../CardsUL/CardsUL'
 import Dogovor from '../dogovor/dogovor'
 import Naves from '../Naves/Naves';
 import MainPage from '../MainPage/MainPage';
+import Advantages from '../Advantages/Advantages'
+import OurTeachers from '../OurTeachers/ourteachers'
+import AboutUs from '../AboutUs/AboutUs'
+import TheoricalTP from '../TheoricalTP/TheoricalTP'
+import FAQ from '../FAQ/FAQ'
 
 function HomePage() {
 
@@ -24,15 +29,22 @@ function HomePage() {
     <>
       <Navigation/>
       <MainPage/>
+      <Advantages/>
+      <br />
+      <br />
+      <br />
       <FormatLearning/>
+      <OurTeachers/>
       <Carousel/>
-      <Docs/>
+      <AboutUs/>
       <ProgramLearning/>
       <CardsUL/>
+      <TheoricalTP/>
       <Dogovor/>
+      <Docs/>
+      <FAQ/>
       <Naves/>
       <Footer/>
-      
     </>
   )
 }

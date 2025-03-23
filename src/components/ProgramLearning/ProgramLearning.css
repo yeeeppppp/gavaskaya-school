@@ -36,8 +36,8 @@
 
 .card {
     border-radius: 25px;
-    width: 315px;
-    height: 476px;
+    width: 650px;
+    height: 454px;
     box-shadow: 8px 8px 18px 4px rgba(0, 0, 0, 0.2);
     background: linear-gradient(358deg, rgba(125, 125, 125, 0.3) 0%, rgba(55, 55, 55, 0.3) 100%);
     margin-top: -2rem;
@@ -49,10 +49,6 @@
     align-items: center;
     flex-direction: column;
     margin-top: 6rem;
-}
-
-.title-cards {
-    margin-top: 1rem;
 }
 
 .title-cards h1{
@@ -78,8 +74,10 @@
 .title-cards {
     background: transparent;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+
+    margin-top: 1rem;
+
 }
 
 .offline {
@@ -90,9 +88,10 @@
     transform: translateX(8px);
 }
 
-.offline svg {
+.title-cards svg {
     background: transparent;
-    transform: translateX(-3px);
+    transform: translateX(-6px);
+    transform: translateY(-6px);
 }
 
 .card svg {
@@ -109,8 +108,74 @@
 
 .card {
     display: flex;
-    flex-direction: column;
     align-items: center;
     margin-left: 10.5px;
     margin-right: 10.5px;
+    justify-content: space-between;
+}
+
+
+.card-content {
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 34px;
+    margin-left: 34px;
+}
+
+.card-top-txt {
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-descr {
+    background: transparent;
+    margin-top: -1rem;
+}
+
+.card-descr p {
+    background: transparent;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 107%;
+    letter-spacing: -0.04em;
+    color: #fff;
+}
+
+.text-cards {
+    background: transparent;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.text-cards p {
+    background: transparent;
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 107%;
+    letter-spacing: -0.04em;
+    color: #fff;
+
+    margin-top: 10px;
+}
+
+.text-cards span {
+    font-weight: 700;
+}
+
+.card img {
+    border-radius: 0 25px 25px 0;
+    width: 335px;
+    height: 456px;
+}
+
+#akpp img {
+    border-radius: 25px 0 0 25px;
+    width: 352px;
+    height: 454px;
 }
