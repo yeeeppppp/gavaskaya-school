@@ -20,16 +20,6 @@
     margin-top: 0; 
 }
 
-.border-line {
-    border-left: 5px dotted white;
-    height: 100%; 
-    position: absolute;
-    left: 51.3%; 
-    transform: translateX(-50%); 
-    top: 0;
-    bottom: 0;
-}
-
 .about-header {
     display: flex;
     flex-direction: row;
@@ -127,6 +117,18 @@
     margin-top: 13px;
 
     background: linear-gradient(358deg, rgba(255, 255, 255, 0.3) 0%, rgba(153, 153, 153, 0.3) 100%);
+}
+
+.empty-block img {
+    border-radius: 13px;
+    width: 147px;
+    height: 147px;
+}
+
+.empty-block-2 img {
+    border-radius: 13px;
+    width: 147px;
+    height: 147px;
 }
 
 .second-filial {

@@ -91,23 +91,6 @@ function TheoricalTP() {
                     
                 </div>
                 <div className="plitsss">
-                <div className="time">
-                    <h1>Время проведения</h1>
-                    <ul>
-                        <li>
-                            <p><span>АКПП и МКПП OFFLINE -  </span><br /> Вторник: 18:00, Четверг: 19:00</p>
-                        </li>
-                        <li>
-                            <p><span>АКПП и МКПП ONLINE  -</span><br />Понедельник: 18:00, Четверг: 19:00</p>
-                        </li>
-                    </ul>
-                </div>
-                <div className="duration">
-                    <h1 className='title-duration'>Продолжительность занятий</h1>
-                    <div className="duration-div">
-                        <h1>1.5-2 ЧАСА</h1>
-                    </div>
-                </div>
                 <div className="space" style={{width: '730px'}}>
                     <p>.</p>
                 </div>

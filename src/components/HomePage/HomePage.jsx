@@ -42,8 +42,8 @@ function HomePage() {
       <Carousel/>
       <AboutUs/>
       <ProgramLearning/>
-      <CardsUL/>
       <TheoricalTP/>
+      <CardsUL/>
       <Dogovor/>
       <Docs/>
       <FAQ/>

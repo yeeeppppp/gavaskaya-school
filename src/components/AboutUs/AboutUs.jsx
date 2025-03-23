@@ -2,6 +2,14 @@ import "./aboutus.css";
 import AboutFil from "../../assets/img/aboutfil.png";
 import Filial1 from "../../assets/img/filial-1.png";
 import Filial2 from "../../assets/img/filial-2.png";
+import FilialPic1 from '../../assets/img/our-filial1.png'
+import FilialPic2 from '../../assets/img/our-filial2.png'
+import FilialPic3 from '../../assets/img/our-filial3.png'
+import FilialPic4 from '../../assets/img/our-filial4.png'
+import Avtodrom1 from '../../assets/img/avtodrom-1.png'
+import Avtodrom2 from '../../assets/img/avtodrom-2.png'
+import Avtodrom3 from '../../assets/img/avtodrom-3.png'
+import Avtodrom4 from '../../assets/img/avtodrom-4.png'
 
 function aboutus() {
   return (
@@ -40,10 +48,18 @@ function aboutus() {
           </div>
 
           <div className="sup-empty-blocks">
-            <div className="empty-block"></div>
-            <div className="empty-block"></div>
-            <div className="empty-block"></div>
-            <div className="empty-block"></div>
+            <div className="empty-block">
+              <img src={FilialPic1}/>
+            </div>
+            <div className="empty-block">
+              <img src={FilialPic2}/>
+            </div>
+            <div className="empty-block">
+              <img src={FilialPic3}/>
+            </div>
+            <div className="empty-block">
+              <img src={FilialPic4}/>
+            </div>
           </div>
         </div>
 
@@ -82,10 +98,18 @@ function aboutus() {
           </div>
 
           <div className="sup-second-empty-blocks">
-            <div className="empty-block-2"></div>
-            <div className="empty-block-2"></div>
-            <div className="empty-block-2"></div>
-            <div className="empty-block-2"></div>
+            <div className="empty-block-2">
+              <img src={Avtodrom1}/>
+            </div>
+            <div className="empty-block-2">
+              <img src={Avtodrom2}/>
+            </div>
+            <div className="empty-block-2">
+              <img src={Avtodrom3}/>
+            </div>
+            <div className="empty-block-2">
+              <img src={Avtodrom4}/>
+            </div>
           </div>
         </div>
       </div>
