@@ -1,13 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import HomePage from './components/HomePage/HomePage';
+import Error from './components/Error/Error'
 import './App.css';
-import FormatLearning from './components/FormatLearning/FormatLearning';
-import OurTeachers from './components/OurTeachers/ourteachers';
-import FAQ from './components/FAQ/FAQ';
-import AboutUs from './components/AboutUs/AboutUs'
-import TheoricalTP from './components/TheoricalTP/TheoricalTP';
-import Advantages from './components/Advantages/Advantages' 
 
 function App() {
   return (
@@ -15,11 +10,7 @@ function App() {
       <div>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path='/OurTeachers' element={<OurTeachers />}/>
-          <Route path='/FAQ' element={<FAQ />}/>
-          <Route path='/AboutUs' element={<AboutUs />}/>
-          <Route path='/TheoricalTP' element={<TheoricalTP />}/>
-          <Route path='/Advantages' element={<Advantages/>}/>
+          <Route path="/error" element={<Error />} /> 
         </Routes>
       </div>
     </Router>

@@ -1,0 +1,52 @@
+.error h1 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 188px;
+    line-height: 108%;
+    text-align: center;
+    letter-spacing: -0.04em;
+    background: linear-gradient(358deg, #d7d7d7 0%, rgba(255, 255, 255, 0.17) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 4rem;
+}
+
+.error p {
+    font-family: var(--second-family);
+    text-align: center;
+    font-weight: 300;
+    font-size: 90px;
+    line-height: 108%;
+    letter-spacing: -0.04em;
+    background: linear-gradient(358deg, #ffffff 0%, rgba(215, 215, 215, 0.17) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.back {
+    padding: 20px;
+    border-radius: 40px;
+    background: linear-gradient(146deg, #00e400 0%, #00b304 70.71%, #009e05 100%);
+    box-shadow: 1px 2px 6px 0 rgba(0, 0, 0, 0.27);
+    
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 111%;
+    letter-spacing: -0.05em;
+    color: #fff;
+}
+
+.back:hover {
+    scale: 1.1;
+    transition: all 0.2s;
+}
