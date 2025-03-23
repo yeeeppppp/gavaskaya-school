@@ -18,7 +18,7 @@
     align-items: center;
 
     font-family: var(--font-family);
-    font-weight: 400;
+    font-weight: 500;
     font-size: 25px;
     line-height: 122%;
     letter-spacing: -0.05em;
@@ -49,7 +49,7 @@
     
 
     font-family: var(--font-family);
-    font-weight: 400;
+    font-weight: 300;
     font-size: 15px;
     line-height: 122%;
     letter-spacing: -0.05em;
@@ -67,7 +67,7 @@
 .faq-question img{
     position: absolute;
     height: 18.5px;
-    margin-left: 605px;
+    margin-left: 625px;
     margin-top: 25px;
     
 }
