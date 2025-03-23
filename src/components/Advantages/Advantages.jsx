@@ -3,6 +3,9 @@ import Advicon from '../../assets/img/adv-icon.png';
 import PersonalStud from '../../assets/img/personal-stud.png';
 import ClearLearning from '../../assets/img/clean-learning.png';
 import Teacher from '../../assets/img/op-teacher.png'
+import Answer from '../../assets/img/answer-teatcher.png'
+import Point from '../../assets/img/map-point.png'
+import LearnFormat from '../../assets/img/learn-form.png'
 
 function Advantages() {
     return(
@@ -46,7 +49,7 @@ function Advantages() {
                             <p>Персональные условия <br />для студентов</p>
                         </div>
                         <div className="additional-block">
-                            <img src={PersonalStud}/>
+                            <img src={Answer}/>
                         </div>
                     </div>
                     <div className="info-block">
@@ -54,7 +57,7 @@ function Advantages() {
                             <p>Полностью прозрачное <br />обучение</p>
                         </div>
                         <div className="additional-block">
-                            <img src={ClearLearning}/>
+                            <img src={Point}/>
                         </div>
                     </div>
                     <div className="info-block">
@@ -62,7 +65,7 @@ function Advantages() {
                             <p>Опытные преподаватели <br />с большим стажем</p>
                         </div>
                         <div className="additional-block">
-                            <img src={Teacher}/>
+                            <img src={LearnFormat}/>
                         </div>
                     </div>
             </div>
@@ -109,7 +112,17 @@ function Advantages() {
                             <p>#01</p>
                         </div>
                     </div>
+                    <div className="text-on-ticket1">
+                        <p><span>Знакомство</span>
+                        <br />
+                        После того как вы оставите <br />
+                        заявку или позвоните нам - <br />
+                        мы назначим вам личную <br />
+                        встречу
+                        </p>
+                    </div>
                 </div>
+
                 <div className="ticket-2">
                     <svg width="307" height="169" viewBox="0 0 307 169" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g filter="url(#filter0_d_309_117)">
@@ -134,8 +147,17 @@ function Advantages() {
                     </svg>
                     <div className="info-on-ticket">
                         <div className="green-butt2">
-                            <p>#01</p>
+                            <p>#02</p>
                         </div>
+                    </div>
+                    <div className="text-on-ticket2">
+                        <span>Заключение <br />
+                        договора</span>
+                        <br />
+                        <p>
+                        Вы выбираете формат <br />
+                        обучения мы заключаем договор <br />
+                        </p>
                     </div>
                 </div>
                 <div className="ticket-3">
@@ -162,8 +184,17 @@ function Advantages() {
                     </svg>
                     <div className="info-on-ticket">
                         <div className="green-butt3">
-                            <p>#01</p>
+                            <p>#03</p>
                         </div>
+                    </div>
+                    <div className="text-on-ticket3">
+                        <p><span>Обучение</span>
+                        <br />
+                        После того как вы оставите <br />
+                        заявку или позвоните нам - <br />
+                        мы назначим вам личную <br />
+                        встречу
+                        </p>
                     </div>
                 </div>
                 <div className="ticket-4">
@@ -190,8 +221,17 @@ function Advantages() {
                     </svg>
                     <div className="info-on-ticket">
                         <div className="green-butt4">
-                            <p>#01</p>
+                            <p>#04</p>
                         </div>
+                    </div>
+                    <div className="text-on-ticket4">
+                        <span>Экзамен <br />
+                        в автошколе</span>
+                        <br />
+                        <p>
+                        Вы выбираете формат <br />
+                        обучения мы заключаем договор <br />
+                        </p>
                     </div>
                 </div>
                 <div className="ticket-5">
@@ -218,8 +258,17 @@ function Advantages() {
                     </svg>
                     <div className="info-on-ticket">
                         <div className="green-butt5">
-                            <p>#01</p>
+                            <p>#05</p>
                         </div>
+                    </div>
+                    <div className="text-on-ticket5">
+                        <span>Экзамен <br />
+                        в ГАИ</span>
+                        <br />
+                        <p>
+                        Вы выбираете формат <br />
+                        обучения мы заключаем договор <br />
+                        </p>
                     </div>
                 </div>
                 <div className="ticket-6">
@@ -234,8 +283,17 @@ function Advantages() {
                     </svg>
                     <div className="info-on-ticket">
                         <div className="green-butt6">
-                            <p>#01</p>
+                            <p>#06</p>
                         </div>
+                    </div>
+                    <div className="text-on-ticket6">
+                        <p><span>Выдача в.у.</span>
+                        <br />
+                        После того как вы оставите <br />
+                        заявку или позвоните нам - <br />
+                        мы назначим вам личную <br />
+                        встречу
+                        </p>
                     </div>
                 </div>
             </div>
