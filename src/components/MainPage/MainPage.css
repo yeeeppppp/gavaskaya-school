@@ -16,7 +16,7 @@
     justify-content: center;
 
     box-shadow: 0 4px 17px 0 rgba(0, 0, 0, 0.25);
-
+    background: linear-gradient(358deg, rgb(45, 45, 45) 0%, rgb(57, 57, 57) 100%);
 }
 
 .block:hover {

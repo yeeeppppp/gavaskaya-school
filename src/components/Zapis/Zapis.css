@@ -28,6 +28,12 @@
 
 .btm-zapis {
     background: transparent;
+    margin-left: 45px;
+    width: 500px;
+}
+
+.social-net {
+    margin-left: 5px;
 }
 
 .social-nw {
@@ -48,6 +54,7 @@
 
 #agr-txt {
     font-size: 16px;
+    text-align: center;
 }
 
 #zps-btn {
@@ -63,14 +70,17 @@
 
 #txt-zps {
     font-size: 16px;
+    margin-left: 15px;
 }
 
 #ee {
-    margin-right: 190px;
+    margin-right: 155px;
+    margin-left: 15px;
 }
 
 #ss {
-    margin-right: 270px;
+    margin-right: 240px;
+    margin-left: 25px;
 }
 
 #hh {
@@ -87,4 +97,8 @@
 .social-net a {
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.agreement-text {
+    width: 430px;
 }
