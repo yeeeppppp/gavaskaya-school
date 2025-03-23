@@ -104,6 +104,11 @@ function Advantages() {
                             </linearGradient>
                         </defs>
                     </svg>
+                    <div className="info-on-ticket">
+                        <div className="green-butt1">
+                            <p>#01</p>
+                        </div>
+                    </div>
                 </div>
                 <div className="ticket-2">
                     <svg width="307" height="169" viewBox="0 0 307 169" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -127,6 +132,11 @@ function Advantages() {
                             </linearGradient>
                         </defs>
                     </svg>
+                    <div className="info-on-ticket">
+                        <div className="green-butt2">
+                            <p>#01</p>
+                        </div>
+                    </div>
                 </div>
                 <div className="ticket-3">
                     <svg width="351" height="169" viewBox="0 0 351 169" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -150,6 +160,11 @@ function Advantages() {
                             </linearGradient>
                         </defs>
                     </svg>
+                    <div className="info-on-ticket">
+                        <div className="green-butt3">
+                            <p>#01</p>
+                        </div>
+                    </div>
                 </div>
                 <div className="ticket-4">
                     <svg width="339" height="169" viewBox="0 0 339 169" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -173,6 +188,11 @@ function Advantages() {
                             </linearGradient>
                         </defs>
                     </svg>
+                    <div className="info-on-ticket">
+                        <div className="green-butt4">
+                            <p>#01</p>
+                        </div>
+                    </div>
                 </div>
                 <div className="ticket-5">
                     <svg width="349" height="169" viewBox="0 0 349 169" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -196,6 +216,11 @@ function Advantages() {
                             </linearGradient>
                         </defs>
                     </svg>
+                    <div className="info-on-ticket">
+                        <div className="green-butt5">
+                            <p>#01</p>
+                        </div>
+                    </div>
                 </div>
                 <div className="ticket-6">
                     <svg width="356" height="149" viewBox="0 0 356 149" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -207,6 +232,11 @@ function Advantages() {
                             </linearGradient>
                         </defs>
                     </svg>
+                    <div className="info-on-ticket">
+                        <div className="green-butt6">
+                            <p>#01</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
