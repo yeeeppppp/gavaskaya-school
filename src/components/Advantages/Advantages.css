@@ -1,0 +1,230 @@
+/* Загланвая надпись */
+
+.adv-header {
+    display: flex;
+    margin-left: 62px;
+    gap: 13px;
+}
+
+.adv-header img{
+    height: 48px;
+    margin-top: 6px;
+}
+
+.adv-header h1 {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 107%;
+    letter-spacing: -0.04em;
+    color: #fff;
+}
+
+/* 6 блоков */
+
+.info-right-blocks {
+    margin-left: 62px;
+}
+
+.info-block {
+    border-radius: 12px;
+    width: 294px;
+    height: 55px;
+    margin-top: 30px;
+    margin-top: 10px;
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.25);
+    background: #3a3a3a;
+}
+
+.info-block p {
+    background: transparent;
+}
+
+/* Дополнительный блок */
+
+.additional-block {
+    border-radius: 12px;
+    width: 59px;
+    height: 55px;
+    margin-top: -42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    box-shadow: 0 4px 15px 5px rgba(0, 0, 0, 0.25);
+    background: rgba(108, 108, 108, 0.42);
+}
+
+/* Текст внутри блока */
+
+.text-about {
+    background: transparent;
+    padding-top: 10px;
+}
+
+.text-about p{
+    margin-left: 80px;
+
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 107%;
+    letter-spacing: -0.05em;
+    color: #fff;
+}
+
+.text-about p::first-line {
+    font-weight: 600;
+}
+
+.info-left-blocks {
+    margin-left: 20px;
+}
+
+.main-info-blocks {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Почему мы? + Описание */
+
+.why-title {
+    margin-left: 62px;
+    margin-top: 35px;
+
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 90%;
+    letter-spacing: -0.05em;
+    color: #fff;
+}
+
+.why-we p{
+    margin-top: 13px;
+    margin-left: 62px;
+
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 90%;
+    letter-spacing: -0.05em;
+    color: #fff;
+}
+
+.why-we span{
+    font-weight: 600;
+}
+
+/* плейсхолдер карты */
+
+.map-place-holder {
+    border-radius: 38px;
+    width: 568px;
+    height: 337px;
+
+    background: transparent;
+    border: 3px solid #3a3a3a;
+    margin-left: 972px;
+
+    transform: rotate(-6deg);
+    margin-top: -340px;
+
+    position: relative;
+    z-index: 2;
+}
+
+/* Душная хуетень с билетиками*/
+
+.road-map h2{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 138px;
+    letter-spacing: -0.04em;
+    background: linear-gradient(358deg, #fff 0%, rgba(153, 153, 153, 0.17) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    opacity: 0.2;
+    transform: rotate(-3deg);
+    margin-left: 5px;
+    z-index: 1;
+}
+
+.road-map {
+    position: relative;
+    margin-left: 62px
+}
+
+.white-tickets {
+    display: flex;
+    fill: linear-gradient(168deg, #f0f0f0 0%, #7e7e7e 100%);
+    box-shadow: 5px 0 10px 0 rgba(0, 0, 0, 0.25);
+}
+
+.ticket-1,
+.ticket-2,
+.ticket-3,
+.ticket-4,
+.ticket-5,
+.ticket-6 {
+    z-index: 1;
+    background: transparent;
+}
+
+.ticket-1 {
+    z-index: 7;
+}
+
+.ticket-1 svg {
+    background: transparent;
+    z-index: 7;
+}
+
+.ticket-2 {
+    z-index: 6;
+    margin-left: -95px;
+}
+
+.ticket-2 svg {
+    background: transparent;
+}
+
+.ticket-3 {
+    margin-left: -136px;
+    z-index: 5;
+}
+
+.ticket-3 svg{
+    background: transparent;
+}
+
+.ticket-4 {
+    margin-left: -127px;
+    z-index: 4;
+}
+
+.ticket-4 svg {
+    background: transparent;
+}
+
+.ticket-5 {
+    margin-left: -136px;
+    z-index: 3;
+}
+
+.ticket-5 svg {
+    background: transparent;
+}
+
+.ticket-6 {
+    margin-left: -163px;
+    margin-top: 10px;
+    z-index: 2;
+}
+
+.ticket-6 svg {
+    background: transparent;
+}

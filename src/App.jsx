@@ -8,6 +8,7 @@ import OurTeachers from './components/OurTeachers/ourteachers';
 import FAQ from './components/FAQ/FAQ';
 import AboutUs from './components/AboutUs/AboutUs'
 import TheoricalTP from './components/TheoricalTP/TheoricalTP';
+import Advantages from './components/Advantages/Advantages' 
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path='/FAQ' element={<FAQ />}/>
           <Route path='/AboutUs' element={<AboutUs />}/>
           <Route path='/TheoricalTP' element={<TheoricalTP />}/>
+          <Route path='/Advantages' element={<Advantages/>}/>
         </Routes>
       </div>
     </Router>
