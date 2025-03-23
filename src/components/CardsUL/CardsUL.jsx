@@ -3,6 +3,8 @@ import './CardsUL.css'
 function CardsUL(){
     return (
         <>
+            <div className="cardsUL-global">
+            <div className="cardsUL">
             <div className="top-cards-ul">
                 <div className="schledule">
                     <h1>Актуальное расписание занятий</h1>
@@ -46,9 +48,6 @@ function CardsUL(){
                 </div>
             </div>
             <div className="bottom-cards-ul">
-
-            </div>
-            <div className="bottom-cards-ul">
                 <div className="hoe">
                     <h1> <span>Индивидуальные условия</span> <br />
                     Для групп выходного дня</h1>
@@ -56,6 +55,8 @@ function CardsUL(){
                     <p>Для уточнения расписания <br />
                     обращаться к администратору автошколы</p>
                 </div>
+            </div>
+            </div>
             </div>
         </>
     )

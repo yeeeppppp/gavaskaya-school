@@ -88,6 +88,20 @@
     margin-right: 9px;
 }
 
+.link-two:hover {
+    scale: 1.2x;
+    transition: all 0.3s;
+}
+.link-one:hover {
+    scale: 1.2x;
+    transition: all 0.3s;
+}
+
+.link-three:hover {
+    scale: 1.2x;
+    transition: all 0.3s;
+}
+
 .docs-links {
     display: flex;
     margin-top: -2.6rem;

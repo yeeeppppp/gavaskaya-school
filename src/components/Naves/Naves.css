@@ -1,0 +1,49 @@
+/* Основной контейнер */
+.chat-icon-container {
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    transform: translateY(-50%);
+    z-index: 999; /* Убедитесь, что он находится поверх всего */
+    background: transparent;
+  }
+  
+  /* Основная иконка чата */
+  .chat-icon {
+    width: 64px;
+    height: 64px;
+    cursor: pointer;
+    background: transparent;
+  }
+
+  .chat-icon svg {
+    background: transparent;
+  }
+  
+  /* Дополнительные иконки */
+  .additional-icons {
+    position: absolute;
+    bottom: 0;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: transparent;
+  }
+  
+  .additional-icons .icon {
+    width: 64px;
+    height: 64px;
+    cursor: pointer;
+    background: transparent;
+  }
+
+  /* Прозрачный фон для всех SVG */
+.chat-icon svg,
+.additional-icons .icon svg {
+  background: transparent;
+}
+
+a {
+  background: transparent;
+}

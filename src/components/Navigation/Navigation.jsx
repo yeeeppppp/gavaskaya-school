@@ -9,10 +9,10 @@ function Navigation(){
                 <img src={logo} alt="logo" />
             </div>
             <div className="nav-el">
-                <a href="#">Стоимость</a>
-                <a href="#">Обучение</a>
-                <a href="#">Акции</a>
-                <a href="#">Контакты</a>
+                <a href="#format">Стоимость</a>
+                <a href="#learning">Обучение</a>
+                {/* <a href="#">Акции</a> */}
+                <a href="#footer">Контакты</a>
             </div>
         </div>
         </>
