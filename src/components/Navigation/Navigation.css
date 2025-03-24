@@ -5,10 +5,8 @@
     line-height: 122%;
     letter-spacing: -0.05em;
     color: #aeaeae;
-
     margin-left: 32px;
     margin-right: 32px;
-
     background: transparent;
 }
 
@@ -20,9 +18,7 @@
     padding-right: 80px;
     padding-top: 20px;
     padding-bottom: 20px;
-
     background: #212121c3;
-
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -30,14 +26,12 @@
 
 .logo-sa img {
     height: 36px;
-
     background: transparent;
 }
 
 .nav-el a:hover {
     color: #fff;
     transition: all 0.5s;
-
     background: transparent;
 }
 

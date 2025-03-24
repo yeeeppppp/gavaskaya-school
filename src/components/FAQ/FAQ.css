@@ -1,7 +1,6 @@
-.faq-header h2{
+.faq-header h2 {
     text-align: center;
     margin-top: 60px;
-
     font-family: var(--second-family);
     font-weight: 400;
     font-size: 80px;
@@ -10,12 +9,10 @@
     color: #fff;
 }
 
-
 .faq-item {
     display: flex;
     flex-direction: column;
     align-items: center;
-
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 25px;
@@ -31,10 +28,10 @@
     height: 69px;
     width: 700px;
     margin-top: 60px;
-    cursor: pointer; /* Добавляем указатель для интерактивности */
+    cursor: pointer;
 }
 
-.faq-question span{
+.faq-question span {
     margin-left: 45px;
     margin-top: 17px;
     z-index: 2;
@@ -46,43 +43,37 @@
     width: 700px;
     margin-top: -32px;
     border-radius: 0 0 40px 40px;
-    
-
     font-family: var(--font-family);
     font-weight: 300;
     font-size: 15px;
     line-height: 122%;
     letter-spacing: -0.05em;
     color: #fff;
-    max-height: 0; /* Начальная высота закрытого состояния */
-    overflow: hidden; /* Скрываем содержимое при закрытии */
-    transition: max-height 0.4s ease, padding 0.4s ease; /* Плавный переход */
-    padding: 0 45px; /* Начальные отступы (синхронизируем с span) */
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, padding 0.4s ease;
+    padding: 0 45px;
 }
 
 .faq-answer.open {
-    max-height: 280px; /* Достаточная высота для контента (220px + отступы) */
-    padding: 35px 45px 10px; /* Отступы при открытии */
+    padding: 35px 45px 30px; /* 30px снизу для отступа под текстом */
 }
 
-.faq-answer span{
-    margin-left: 45px;
-    margin-top: 15px;
-    margin-right: 100px;
-    height: 220px; /* тут */
-    margin-bottom: -25px;
+.faq-answer span {
+    margin: 0; /* Убираем фиксированные отступы и высоту */
+    width: 100%; /* Используем всю доступную ширину */
 }
 
-.faq-question img{
+.faq-question img {
     position: absolute;
     height: 18.5px;
     margin-left: 625px;
     margin-top: 25px;
-    transition: transform 0.4s ease; /* Плавный поворот стрелки */
+    transition: transform 0.4s ease;
 }
 
 .faq-question img.rotated {
-    transform: rotate(180deg); /* Поворот стрелки при открытии */
+    transform: rotate(180deg);
 }
 
 .questions {
