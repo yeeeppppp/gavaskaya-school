@@ -7,17 +7,20 @@
     color: #fff;
 }
 
+.dogovor-wrapper {
+    max-width: 1353px;
+    margin: 0 auto;
+}
+
 .dogovor-title svg {
     margin-top: 12px;
 }
 
 .dogovor {
     margin-top: 7rem;
-    display: flex
-;
+
+    display: flex;
     flex-direction: column;
-    align-items: center;
-    scale: 1.04;
 }
 
 .dogovor-hy {
@@ -30,7 +33,7 @@
 .dogovor-title {
     display: flex;
     align-items: center;
-    margin-left: 60px;
+    
 }
 
 .dogovor-title svg {
