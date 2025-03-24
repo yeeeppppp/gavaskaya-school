@@ -15,6 +15,7 @@ function aboutus() {
   return (
     <>
       <div className="filliall">
+      <div className="section-wrapper">
       <div className="about-header">
         <h2>О НАШЕМ ФИЛЛИАЛЕ</h2>
         <img src={AboutFil} alt="" />
@@ -62,9 +63,7 @@ function aboutus() {
             </div>
           </div>
         </div>
-
-        <div className="border-line"></div> {/* Линия между секциями */}
-
+        
         <div className="right-section">
           <div className="second-filial">
             <img src={Filial2} alt="Филиал 2" />
@@ -112,6 +111,7 @@ function aboutus() {
             </div>
           </div>
         </div>
+      </div>
       </div>
       </div>
     </>

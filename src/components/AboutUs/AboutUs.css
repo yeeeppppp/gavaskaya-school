@@ -1,3 +1,8 @@
+.section-wrapper {
+    max-width: 1322px;
+    margin: 0 auto;
+}
+
 .filial-container {
     display: flex;
     justify-content: center; 
@@ -35,7 +40,7 @@
 
 .about-header h2 {
     margin-top: 92px;
-    margin-left: 62px;
+    margin-left: 25px;
 
     font-family: var(--second-family);
     font-weight: 400;
