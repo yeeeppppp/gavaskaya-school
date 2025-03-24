@@ -6,8 +6,8 @@ import subaru from '../../assets/img/bmw.jpg';
 import camry from '../../assets/img/camry.jpg';
 import honda from '../../assets/img/zaz.jpg';
 
-import nextButton from '../../assets/img/next-btn.svg'
-import prewButton from '../../assets/img/prew-btn.svg'
+import nextButton from '../../assets/img/next-btn.svg';
+import prevButton from '../../assets/img/prew-btn.svg'; // Исправлено название переменной (было prewButton)
 
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -47,8 +47,9 @@ const Carousel = () => {
       <h2 className="carousel-title">АВТОПАРК</h2>
       
       <div className="carousel-slide">
-        <button className="nav-button prev" onClick={prevSlide}>
-        <img src={prewButton} alt="" />
+        {/* Добавлен z-index для кнопки */}
+        <button className="nav-button prev" onClick={prevSlide} style={{ zIndex: 100 }}>
+          <img src={prevButton} alt="Previous" /> {/* Исправлено название переменной */}
         </button>
         
         {/* Контейнер для миниатюр */}
@@ -77,8 +78,8 @@ const Carousel = () => {
           />
         </div>
 
-        <button className="nav-button next" onClick={nextSlide}>
-            <img src={nextButton} alt="" />
+        <button className="nav-button next" onClick={nextSlide} style={{ zIndex: 100 }}>
+            <img src={nextButton} alt="Next" />
         </button>
       </div>
 
