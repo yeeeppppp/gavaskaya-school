@@ -104,6 +104,7 @@
 .why-we p{
     margin-top: 13px;
     margin-left: 62px;
+    height: 55px;
 
     font-family: var(--font-family);
     font-weight: 300;
