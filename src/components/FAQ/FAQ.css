@@ -14,7 +14,6 @@
 .faq-item {
     display: flex;
     flex-direction: column;
-    margin-bottom: -27px;
     align-items: center;
 
     font-family: var(--font-family);
@@ -32,6 +31,7 @@
     height: 69px;
     width: 700px;
     margin-top: 60px;
+    cursor: pointer; /* Добавляем указатель для интерактивности */
 }
 
 .faq-question span{
@@ -54,6 +54,15 @@
     line-height: 122%;
     letter-spacing: -0.05em;
     color: #fff;
+    max-height: 0; /* Начальная высота закрытого состояния */
+    overflow: hidden; /* Скрываем содержимое при закрытии */
+    transition: max-height 0.4s ease, padding 0.4s ease; /* Плавный переход */
+    padding: 0 45px; /* Начальные отступы (синхронизируем с span) */
+}
+
+.faq-answer.open {
+    max-height: 280px; /* Достаточная высота для контента (220px + отступы) */
+    padding: 35px 45px 10px; /* Отступы при открытии */
 }
 
 .faq-answer span{
@@ -69,7 +78,11 @@
     height: 18.5px;
     margin-left: 625px;
     margin-top: 25px;
-    
+    transition: transform 0.4s ease; /* Плавный поворот стрелки */
+}
+
+.faq-question img.rotated {
+    transform: rotate(180deg); /* Поворот стрелки при открытии */
 }
 
 .questions {

@@ -12,9 +12,15 @@ const FAQItem = ({ question, answer }) => {
         onClick={() => setIsOpen(!isOpen)}
       >
         <span>{question}</span>
-        <img src={OpenList} alt="" className="faq-arrow" />
+        <img
+          src={OpenList}
+          alt=""
+          className={`faq-arrow ${isOpen ? 'rotated' : ''}`} // Поворот стрелки
+        />
       </div>
-      {isOpen && <div className="faq-answer"><span>{answer}</span></div>}
+      <div className={`faq-answer ${isOpen ? 'open' : ''}`}>
+        <span>{answer}</span>
+      </div>
     </div>
   );
 };
