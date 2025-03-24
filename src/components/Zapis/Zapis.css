@@ -2,6 +2,15 @@
     border-radius: 34px;
     width: 480px;
     height: 640px;
+    /* Добавляем начальное состояние для анимации */
+    opacity: 0;
+    transform: translateY(20px); /* Начальный сдвиг вниз */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Плавный переход */
+}
+
+#naves.visible {
+    opacity: 1;
+    transform: translateY(0); /* Конечное положение */
 }
 
 #naves h1 {
