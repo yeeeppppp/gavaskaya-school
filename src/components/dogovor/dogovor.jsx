@@ -150,7 +150,7 @@ function dogovor(){
                             </div>
                         </div>
                     </div>
-                    <div className="ru-dogovor"  style={{width: '523px'}}>
+                    <div className="ru-dogovor"  style={{width: '550px'}}>
                         <div className="content-ru">
                             <div className="text-ru" style={{marginLeft: '20px'}}>
                                 <h1>Для иностранных граждан:</h1>
