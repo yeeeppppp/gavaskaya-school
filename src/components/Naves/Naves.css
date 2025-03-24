@@ -1,44 +1,60 @@
 /* Основной контейнер */
 .chat-icon-container {
-    position: fixed;
-    bottom: 0;
-    right: 20px;
-    transform: translateY(-50%);
-    z-index: 999; /* Убедитесь, что он находится поверх всего */
-    background: transparent;
-  }
-  
-  /* Основная иконка чата */
-  .chat-icon {
-    width: 64px;
-    height: 64px;
-    cursor: pointer;
-    background: transparent;
-  }
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  background: transparent;
+}
 
-  .chat-icon svg {
-    background: transparent;
-  }
-  
-  /* Дополнительные иконки */
-  .additional-icons {
-    position: absolute;
-    bottom: 0;
-    transform: translateY(-50%);
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    background: transparent;
-  }
-  
-  .additional-icons .icon {
-    width: 64px;
-    height: 64px;
-    cursor: pointer;
-    background: transparent;
-  }
+/* Основная иконка чата */
+.chat-icon {
+  width: 64px;
+  height: 64px;
+  cursor: pointer;
+  background: transparent;
+}
 
-  /* Прозрачный фон для всех SVG */
+.chat-icon svg {
+  background: transparent;
+}
+
+/* Дополнительные иконки */
+.additional-icons {
+  position: absolute;
+  bottom: 80px; /* Начальная позиция (чуть выше основной иконки) */
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background: transparent;
+  opacity: 0; /* Скрыто по умолчанию */
+  transform: translateY(100%); /* Сдвигаем вниз, чтобы иконки "прятались" за основной */
+  transition: transform 0.5s ease, opacity 0.5s ease; /* Плавный переход */
+  pointer-events: none; /* Отключаем взаимодействие, когда иконки скрыты */
+}
+
+/* Состояние, когда иконки видны */
+.additional-icons.visible {
+  opacity: 1; /* Показываем иконки */
+  transform: translateY(0); /* Поднимаем иконки вверх */
+  pointer-events: auto; /* Включаем взаимодействие */
+}
+
+.additional-icons .icon {
+  width: 64px;
+  height: 64px;
+  cursor: pointer;
+  background: transparent;
+  transform: rotate(0deg); /* Начальное вращение */
+  transition: transform 0.5s ease; /* Плавное вращение */
+}
+
+/* Анимация вращения при появлении */
+.additional-icons.visible .icon {
+  transform: rotate(360deg); /* Вращение на 360 градусов при появлении */
+}
+
+/* Прозрачный фон для всех SVG */
 .chat-icon svg,
 .additional-icons .icon svg {
   background: transparent;
