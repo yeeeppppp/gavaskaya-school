@@ -7,39 +7,7 @@ import Answer from '../../assets/img/answer-teatcher.png'
 import Point from '../../assets/img/map-point.png'
 import LearnFormat from '../../assets/img/learn-form.png'
 
-import React, { useEffect, useRef } from 'react';
-
 function Advantages() {
-    const mapRef = useRef(null);
-
-  useEffect(() => {
-    if (typeof window.ymaps === 'undefined') {
-      console.error('Яндекс Карты API не загружен');
-      return;
-    }
-
-    window.ymaps.ready(() => {
-      const myMap = new window.ymaps.Map(mapRef.current, {
-        center: [55.76, 37.64],
-        zoom: 10,
-        controls: ['zoomControl', 'typeSelector', 'fullscreenControl'],
-      });
-
-      const myPlacemark = new window.ymaps.Placemark([55.76, 37.64], {
-        hintContent: 'Москва!',
-        balloonContent: 'Столица России',
-      });
-
-      myMap.geoObjects.add(myPlacemark);
-    });
-
-    return () => {
-      if (mapRef.current) {
-        mapRef.current.innerHTML = '';
-      }
-    };
-  }, []);
-
     return(
         <>
         <div className="advantages-setcions">
@@ -114,12 +82,7 @@ function Advantages() {
         </div>
 
         <div className="road-map-wrapper">
-            <div className="map-place-holder">
-                <div
-                    ref={mapRef}
-                    style={{ width: '100%', height: '100%' }}
-                />
-            </div>
+            <div className="map-place-holder"></div>
             <div className="road-map">
                 <h2>КАРТА ОБУЧЕНИЯ</h2>
                 <div className="white-tickets">
