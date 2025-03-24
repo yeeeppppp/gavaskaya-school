@@ -69,7 +69,7 @@ function aboutus() {
           <div className="second-filial">
             <img src={Filial2} alt="Филиал 2" />
             <div className="filial-address">
-              <p>Наш автодром на ул.???</p>
+              <p>Наш автодром на ул. Ряпищева 50</p>
             </div>
             <div className="sup-second-text">
               <p>
