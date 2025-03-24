@@ -19,7 +19,7 @@ function MainPage(){
         e.preventDefault();
         
         try {
-          const response = await fetch('http://localhost:3001/submit-application', {
+          const response = await fetch('/api/submit-application', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json'
