@@ -12,47 +12,50 @@ const supabase = createClient(config.SUPABASE_URL, config.SUPABASE_KEY);
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// Security headers middleware
+// Безопасность: Настройка CSP
 app.use((req, res, next) => {
+  const csp = `
+    default-src 'self' https:;
+    connect-src 'self' https: ${config.NODE_ENV === 'development' ? 'http://localhost:3001' : ''};
+    script-src 'self' 'unsafe-inline' 'unsafe-eval';
+    style-src 'self' 'unsafe-inline';
+    font-src 'self' data:;
+    img-src 'self' data:;
+  `.replace(/\s+/g, ' ').trim();
+
+  res.header('Content-Security-Policy', csp);
   res.header('X-Powered-By', 'Gavanskaya AutoSchool');
   res.header('X-Content-Type-Options', 'nosniff');
   res.header('X-Frame-Options', 'DENY');
   next();
 });
 
-// CORS configuration
+// CORS
 app.use(cors({
   origin: [
     'https://gavanskaya.ru',
-    'https://www.gavanskaya.ru',
-    'http://localhost:5173' // Для локальной разработки
+    'http://localhost:5173' // Порт вашего клиентского приложения
   ],
   methods: ['POST', 'GET', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true
 }));
 
-// Handle preflight requests
-app.options('*', cors());
-
-// Trust proxy from Nginx
 app.set('trust proxy', true);
 
-// ========== Routes ==========
+// ========== Маршруты ==========
 app.post('/api/submit-application', async (req, res) => {
   try {
     const { name, phone, category } = req.body;
     
-    // Валидация данных
     if (!name?.trim() || !phone?.trim() || !category?.trim()) {
       return res.status(400).json({ 
         success: false,
-        error: 'Все поля обязательны для заполнения'
+        error: 'Все поля обязательны'
       });
     }
 
-    // Сохранение в Supabase
-    const { data, error } = await supabase
+    const { data, error: dbError } = await supabase
       .from('applications')
       .insert([{ 
         name: name.trim(),
@@ -61,17 +64,16 @@ app.post('/api/submit-application', async (req, res) => {
       }])
       .select();
 
-    if (error) {
-      console.error('Supabase Error:', error);
-      throw new Error('Database operation failed');
+    if (dbError) {
+      console.error('Supabase Error:', dbError);
+      throw new Error('Database error');
     }
 
-    // Отправка в Telegram
-    const message = `📝 Новая заявка!\nИмя: ${name}\nТел: ${phone}\nКатегория: ${category}`;
-    await bot.telegram.sendMessage(config.CHAT_ID, message);
-    
-    // Успешный ответ
-    res.json({ 
+    await bot.telegram.sendMessage(config.CHAT_ID, 
+      `📝 Новая заявка!\nИмя: ${name}\nТел: ${phone}\nКатегория: ${category}`
+    );
+
+    res.status(201).json({ 
       success: true,
       applicationId: data[0].id,
       timestamp: new Date().toISOString()
@@ -83,40 +85,16 @@ app.post('/api/submit-application', async (req, res) => {
       success: false,
       error: config.NODE_ENV === 'development' 
         ? error.message 
-        : 'Внутренняя ошибка сервера'
+        : 'Внутренняя ошибка'
     });
   }
 });
 
-// ========== Health Check ==========
-app.get('/api/health', (req, res) => {
-  res.json({ 
-    status: 'OK', 
-    env: config.NODE_ENV,
-    timestamp: new Date().toISOString(),
-    version: '1.0.0'
-  });
-});
-
-// ========== Error Handling ==========
-app.use((req, res) => {
-  res.status(404).json({ 
-    success: false,
-    error: 'Ресурс не найден'
-  });
-});
-
-app.use((err, req, res, next) => {
-  console.error('Global Error:', err);
-  res.status(500).json({ 
-    success: false,
-    error: 'Критическая ошибка системы'
-  });
-});
-
-// ========== Server Startup ==========
+// ========== Запуск сервера ==========
 app.listen(config.PORT, () => {
   console.log(`🚀 Сервер запущен на порту ${config.PORT}`);
-  console.log(`⚙️  Режим: ${config.NODE_ENV}`);
-  console.log(`🌐 Доступен по адресу: https://gavanskaya.ru/api`);
+  console.log(`🌐 Доступ: ${config.NODE_ENV === 'production' 
+    ? 'https://gavanskaya.ru/api' 
+    : `http://localhost:${config.PORT}/api`
+  }`);
 });
