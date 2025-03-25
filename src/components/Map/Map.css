@@ -1,0 +1,20 @@
+#tooltip {
+    padding: 20px 40px;
+    background: #fff;
+    display: none;
+    position: fixed;
+    pointer-events: none;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+}
+
+.mapgl_SqprqBDt0m3ck8ImwnZ0 {
+    z-index: -1;
+}
+
+.too  {
+    background: transparent;
+    color: black;
+}

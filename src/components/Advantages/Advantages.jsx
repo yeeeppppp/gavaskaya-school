@@ -6,6 +6,7 @@ import Teacher from '../../assets/img/op-teacher.png'
 import Answer from '../../assets/img/answer-teatcher.png'
 import Point from '../../assets/img/map-point.png'
 import LearnFormat from '../../assets/img/learn-form.png'
+import Map from '../Map/Map'
 
 function Advantages() {
     return(
@@ -82,7 +83,9 @@ function Advantages() {
         </div>
 
         <div className="road-map-wrapper">
-            <div className="map-place-holder"></div>
+            <div className="map-place-holder">
+                <Map/>
+            </div>
             <div className="road-map">
                 <h2>КАРТА ОБУЧЕНИЯ</h2>
                 <div className="white-tickets">
