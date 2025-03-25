@@ -22,7 +22,7 @@ import OurTeachers from '../OurTeachers/ourteachers'
 import AboutUs from '../AboutUs/AboutUs'
 import TheoricalTP from '../TheoricalTP/TheoricalTP'
 import FAQ from '../FAQ/FAQ'
-
+import RoadMap from '../RoadMap/RoadMap'
 function HomePage() {
 
   return (
@@ -30,6 +30,10 @@ function HomePage() {
       <Navigation/>
       <MainPage/>
       <Advantages/>
+      <RoadMap/>
+      <br />
+      <br /><br />
+      <br />
       <br />
       <br />
       <br />

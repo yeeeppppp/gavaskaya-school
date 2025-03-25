@@ -71,8 +71,27 @@ export const Map = ({ onSelectMarker }) => {
     }, []);
 
     return (
-        <div style={{ width: '100%', height: '30vh', position: 'relative', margin: 0, padding: 0 }}>
-            <div id="map-container" style={{ width: '100%', height: '30vh', position: 'absolute', top: 0, left: 0 }} />
+        <div
+            style={{
+                width: '568px',
+                height: '337px',
+                position: 'relative',
+                margin: 0,
+                padding: 0,
+                borderRadius: '38px', // Закругление углов
+                overflow: 'hidden', // Скрываем части карты за пределами границ
+            }}
+        >
+            <div
+                id="map-container"
+                style={{
+                    width: '100%',
+                    height: '100%',
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                }}
+            />
             <div
                 ref={tooltipRef}
                 id="tooltip"

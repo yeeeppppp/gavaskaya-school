@@ -1,527 +1,87 @@
-/* Загланвая надпись */
-
-.adv-header {
+.title-oab {
     display: flex;
-    margin-left: 62px;
-    gap: 13px;
+    align-items: baseline
 }
 
-.adv-header img{
-    height: 48px;
-    margin-top: 6px;
-}
-
-.adv-header h1 {
+.title-oab h1{
     font-family: var(--second-family);
     font-weight: 400;
     font-size: 60px;
     line-height: 107%;
     letter-spacing: -0.04em;
     color: #fff;
+
+    margin-right: 1rem;
+    margin-bottom: 20px;
 }
 
-/* 6 блоков */
-
-.info-right-blocks {
-    margin-left: 62px;
-}
-
-.info-block {
-    border-radius: 12px;
-    width: 294px;
-    height: 55px;
-    margin-top: 30px;
-    margin-top: 10px;
-    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.25);
-    background: #3a3a3a;
-}
-
-.info-block p {
-    background: transparent;
-}
-
-/* Дополнительный блок */
-
-.additional-block {
-    border-radius: 12px;
-    width: 59px;
-    height: 55px;
-    margin-top: -42px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-
-    box-shadow: 0 4px 15px 5px rgba(0, 0, 0, 0.25);
-    background: rgba(108, 108, 108, 0.42);
-}
-
-/* Текст внутри блока */
-
-.text-about {
-    background: transparent;
-    padding-top: 10px;
-}
-
-.text-about p{
-    margin-left: 80px;
-
-    font-family: var(--font-family);
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 107%;
-    letter-spacing: -0.05em;
-    color: #fff;
-}
-
-.text-about p::first-line {
-    font-weight: 600;
-}
-
-.info-left-blocks {
-    margin-left: 20px;
-}
-
-.main-info-blocks {
-    display: flex;
-    flex-direction: row;
-}
-
-/* Почему мы? + Описание */
-
-.why-title {
-    margin-left: 62px;
-    margin-top: 35px;
-
+.why-our h1{
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 28px;
     line-height: 90%;
     letter-spacing: -0.05em;
     color: #fff;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
-.why-we p{
-    margin-top: 13px;
-    margin-left: 62px;
-    height: 55px;
-
+.why-our p {
     font-family: var(--font-family);
-    font-weight: 300;
-    font-size: 18px;
+    font-weight: 200;
+    font-size: 17px;
     line-height: 90%;
     letter-spacing: -0.05em;
     color: #fff;
 }
 
-.why-we span{
+.why-our span {
     font-weight: 600;
 }
 
-/* плейсхолдер карты */
+#ysl-top {
+    padding: 0;
+    margin-left: 0;
+    margin-bottom: 30px;
+}
 
-.map-place-holder {
+.ourAdvantagesBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 60px;
+}
+
+.map-podlog {
     border-radius: 38px;
     width: 568px;
     height: 337px;
-
     background: transparent;
-    border: 3px solid #3a3a3a;
-
-    transform: rotate(-6deg);
-
+    border: 1px white solid;
+    transform: rotate(-5deg);
     margin-top: -340px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1750px;
-    margin-right: 62px;
-
     position: relative;
-    z-index: 2;
 }
 
-/* Душная хуетень с билетиками*/
-
-.road-map h2{
-    font-family: var(--second-family);
-    font-weight: 400;
-    font-size: 138px;
-    letter-spacing: -0.04em;
-    background: linear-gradient(358deg, #fff 0%, rgba(153, 153, 153, 0.17) 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
-    opacity: 0.2;
-    transform: rotate(-3deg);
-    margin-left: 5px;
-    z-index: 1;
-}
-
-.road-map {
-    position: relative;
-    margin-left: 62px;
-}
-
-.white-tickets {
+.advg-comp {
     display: flex;
+
 }
 
-.ticket-1,
-.ticket-2,
-.ticket-3,
-.ticket-4,
-.ticket-5,
-.ticket-6 {
-    z-index: 1;
-    background: transparent;
-}
-
-.ticket-1 {
-    z-index: 7;
-}
-
-.ticket-1 svg {
-    background: transparent;
-    z-index: 7;
-}
-
-.ticket-2 {
-    z-index: 6;
-    margin-left: -95px;
-}
-
-.ticket-2 svg {
-    background: transparent;
-}
-
-.ticket-3 {
-    margin-left: -136px;
-    z-index: 5;
-}
-
-.ticket-3 svg{
-    background: transparent;
-}
-
-.ticket-4 {
-    margin-left: -127px;
-    z-index: 4;
-}
-
-.ticket-4 svg {
-    background: transparent;
-}
-
-.ticket-5 {
-    margin-left: -136px;
-    z-index: 3;
-}
-
-.ticket-5 svg {
-    background: transparent;
-}
-
-.ticket-6 {
-    margin-left: -163px;
-    margin-top: 10px;
-    z-index: 2;
-}
-
-.ticket-6 svg {
-    background: transparent;
-}
-
-/* Содержимое билетов */
-
-.info-on-ticket {
-    background: transparent;
-    fill: none;
-    position: relative;
-}
-
-.green-butt1 p,
-.green-butt2 p,
-.green-butt3 p,
-.green-butt4 p,
-.green-butt5 p,
-.green-butt6 p {
-    background: transparent;
-    font-family: var(--second-family);
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 107%;
-    letter-spacing: -0.05em;
-    color: #096a00;
-    z-index: 0;
-    position: relative;
-}
-
-.green-butt1 {
+.map2 {
     display: flex;
-    border-radius: 100px;
-    width: 59px;
-    height: 25px;
-    background-color: rgb(0, 224, 0);
     justify-content: center;
     align-items: center;
+    margin-left: 160px;
+}
+
+.map1 {
+    width: 568px;
+    border-radius: 38px;
+    height: 337px;
+}
+
+.mp-cn {
+    z-index: 10;
     position: relative;
-
-    margin-left: 37px;
-    margin-top: -145px;
-}
-
-
-.green-butt2 {
-    display: flex;
-    border-radius: 100px;
-    width: 59px;
-    height: 25px;
-    background-color: rgb(0, 224, 0);
-    justify-content: center;
-    align-items: center;
-    position: relative;
-
-    margin-left: 95px;
-    margin-top: -145px;
-}
-
-
-.green-butt3 {
-    display: flex;
-    border-radius: 100px;
-    width: 59px;
-    height: 25px;
-    background-color: rgb(0, 224, 0);
-    justify-content: center;
-    align-items: center;
-    position: relative;
-
-    margin-left: 135px;
-    margin-top: -145px;
-}
-
-.green-butt4 {
-    display: flex;
-    border-radius: 100px;
-    width: 59px;
-    height: 25px;
-    background-color: rgb(0, 224, 0);
-    justify-content: center;
-    align-items: center;
-    position: relative;
-
-    margin-left: 127px;
-    margin-top: -145px;
-}
-
-.green-butt5 {
-    display: flex;
-    border-radius: 100px;
-    width: 59px;
-    height: 25px;
-    background-color: rgb(0, 224, 0);
-    justify-content: center;
-    align-items: center;
-    position: relative;
-
-    margin-left: 136px;
-    margin-top: -145px;
-}
-
-.green-butt6 {
-    display: flex;
-    border-radius: 100px;
-    width: 59px;
-    height: 25px;
-    background-color: rgb(0, 224, 0);
-    justify-content: center;
-    align-items: center;
-    position: relative;
-
-    margin-left: 163px;
-    margin-top: -135px;
-}
-
-
-/* Текст в билетах */
-
-.text-on-ticket1 {
-    background: transparent;
-    margin-left: 37px;
-    margin-top: 10px;
-}
-
-.text-on-ticket1 p{
-    background: transparent;
-    font-family: var(--font-family);
-    font-style: italic;
-    font-weight: 300;
-    font-size: 10px;
-    line-height: 107%;
-    letter-spacing: -0.05em;
-    color: #212121;
-}
-
-.text-on-ticket1 span{
-    background: transparent;
-
-    font-family: var(--font-family);
-    font-style: italic;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 107%;
-    letter-spacing: -0.05em;
-    color: #212121;
-}
-
-.text-on-ticket2 {
-    background: transparent;
-    margin-left: 95px;
-    margin-top: 15px;
-}
-
-.text-on-ticket2 p{
-    background: transparent;
-    font-family: var(--font-family);
-    font-style: italic;
-    font-weight: 300;
-    font-size: 10px;
-    line-height: 107%;
-    letter-spacing: -0.05em;
-    color: #212121;
-    margin-top: 2px;
-}
-
-.text-on-ticket2 span{
-    background: transparent;
-
-    font-family: var(--font-family);
-    font-style: italic;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 107%;
-    letter-spacing: -0.05em;
-    color: #212121;
-    line-height: 0.1;
-}
-
-.text-on-ticket3 {
-    background: transparent;
-    margin-top: 10px;
-    margin-left: 135px;
-}
-
-.text-on-ticket3 p{
-    background: transparent;
-    font-family: var(--font-family);
-    font-style: italic;
-    font-weight: 300;
-    font-size: 10px;
-    line-height: 107%;
-    letter-spacing: -0.05em;
-    color: #212121;
-}
-
-.text-on-ticket3 span{
-    background: transparent;
-
-    font-family: var(--font-family);
-    font-style: italic;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 107%;
-    letter-spacing: -0.05em;
-    color: #212121;
-}
-
-.text-on-ticket4 {
-    background: transparent;
-    margin-left: 127px;
-    margin-top: 15px;
-}
-
-.text-on-ticket4 p{
-    background: transparent;
-    font-family: var(--font-family);
-    font-style: italic;
-    font-weight: 300;
-    font-size: 10px;
-    line-height: 107%;
-    letter-spacing: -0.05em;
-    color: #212121;
-    margin-top: 2px;
-}
-
-.text-on-ticket4 span{
-    background: transparent;
-
-    font-family: var(--font-family);
-    font-style: italic;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 107%;
-    letter-spacing: -0.05em;
-    color: #212121;
-    line-height: 0.1;
-}
-
-.text-on-ticket5 {
-    background: transparent;
-    margin-left: 136px;
-    margin-top: 15px;
-}
-
-.text-on-ticket5 p{
-    background: transparent;
-    font-family: var(--font-family);
-    font-style: italic;
-    font-weight: 300;
-    font-size: 10px;
-    line-height: 107%;
-    letter-spacing: -0.05em;
-    color: #212121;
-    margin-top: 2px;
-}
-
-.text-on-ticket5 span{
-    background: transparent;
-
-    font-family: var(--font-family);
-    font-style: italic;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 107%;
-    letter-spacing: -0.05em;
-    color: #212121;
-    line-height: 0.1;
-}
-
-.text-on-ticket6 {
-    background: transparent;
-    margin-left: 163px;
-    margin-top: 10px;
-}
-
-.text-on-ticket6 p{
-    background: transparent;
-    font-family: var(--font-family);
-    font-style: italic;
-    font-weight: 300;
-    font-size: 10px;
-    line-height: 107%;
-    letter-spacing: -0.05em;
-    color: #212121;
-}
-
-.text-on-ticket6 span{
-    background: transparent;
-
-    font-family: var(--font-family);
-    font-style: italic;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 107%;
-    letter-spacing: -0.05em;
-    color: #212121;
 }
